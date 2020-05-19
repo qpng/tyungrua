@@ -1,0 +1,176 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: tyungrua
+  name: 中華拼音
+  version: "0.5"
+  author:
+    - qpng <https://github.com/qpng>
+  description: |
+    中華拼音 (beta)，用 ; / \ 輸入平、上、去聲
+  dependencies:
+    - luna_pinyin
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: simplification
+    states: [ 漢字, 汉字 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - reverse_lookup_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba';/\\"
+  delimiter: " '"
+  algebra:
+    ## 北方模糊音
+    - derive/^t([ry])/c$1/  # 知照合併
+    - derive/^th([ry])/ch$1/  # 知照合併
+    - derive/^dr/zr/  # 知照合併
+    # - derive/^dy([a-z]+1)$/zy$1/  # 知照合併
+    - derive/^(ch?|[sz])ri/$1y/  # sri = sy
+    - derive/ie(ng|k)/i$1/  # 梗曾合併
+    - derive/([a-z]+)ye(ng|k)/$1y$2/  # 梗曾合併
+    - derive/^ye(ng|k)/yi$1/  # 梗曾合併
+    - 'derive/^([bdzgjr][a-z]+)2/$1\/'  # 全濁上變去
+    ## 簡拼
+    - abbrev/^'(.+)$/$1/  # 允許省略隔音符號, 但降低優先級, 以避免最大正向匹配
+    # - abbrev/^(['a-z]).+$/$1/  # 該兩條簡拼與省略隔音符號衝突
+    # - abbrev/^(ng|[ptck]h).+$/$1/
+    ## 聲調輸入
+    - derive/^(['a-z]+)[123]$/$1/
+    # - "derive/^(['a-z]+)[23]$/$1,/"  # 設置一個包括上聲、去聲的聲調
+    - 'xlit 123 ;/\'
+    ##
+    # - "xform/ng/q/"
+    # - "xform/^r/x/"
+    # - "xform/^y/xy/"
+    # - "xform/p$/b/"
+    # - "xform/t$/d/"
+    # - "xform/k$/g/"
+
+translator:
+  dictionary: tyungrua
+  spelling_hints: 6
+  preedit_format:
+    - 'xform ([aeiouy])(ng?|[mptkqbdg])([;/\\,]) $1$3$2'
+    - 'xform ([aeo])([iu])([;/\\,]) $1$3$2'
+    - xform a; ā
+    - xform a/ á
+    - xform a\\ à
+    - xform a, â
+    - xform e; ē
+    - xform e/ é
+    - xform e\\ è
+    - xform e, ê
+    - xform o; ō
+    - xform o/ ó
+    - xform o\\ ò
+    - xform o, ô
+    - xform i; ī
+    - xform i/ í
+    - xform i\\ ì
+    - xform i, î
+    - xform u; ū
+    - xform u/ ú
+    - xform u\\ ù
+    - xform u, û
+    - xform y; ȳ
+    - xform y/ ý
+    - xform y\\ ỳ
+    - xform y, ŷ
+    - xform q ng
+    - xform xy y
+  comment_format:
+    - 'xform ([aeiouy])(ng?|[mptk])([123]) $1$3$2'
+    - 'xform ([aeo])([iu])([123]) $1$3$2'
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 à
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 è
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ò
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ì
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ù
+    - xform y1 ȳ
+    - xform y2 ý
+    - xform y3 ỳ
+    - "xform/'//"
+
+reverse_lookup:
+  dictionary: luna_pinyin
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+  preedit_format:
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
+  comment_format:
+    - 'xform ([aeiouy])(ng?|[mptk])([123]) $1$3$2'
+    - 'xform ([aeo])([iu])([123]) $1$3$2'
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 à
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 è
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ò
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ì
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ù
+    - xform y1 ȳ
+    - xform y2 ý
+    - xform y3 ỳ
+    - "xform/'//"
+
+punctuator:
+  import_preset: default
+
+key_binder:
+  import_preset: default
+
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "`[a-z]*'?$"

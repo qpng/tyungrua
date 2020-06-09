@@ -13,7 +13,7 @@
 
 ---
 name: tyungrua
-version: "0.5"
+version: "0.6"
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -5246,9 +5246,9 @@ use_preset_vocabulary: true
 啜	tyot	1%
 啜	tyui3	1%
 啜	zyui3	1%
-啞	'ea2	50%
-啞	'ea3	50%
-啞	'eak	1%
+啞	'ak	4%
+啞	'ea2	95%
+啞	'ea3	1%
 啟	khie2
 啡	fi1
 啡	phe2	1%
@@ -5284,6 +5284,7 @@ use_preset_vocabulary: true
 喋	trap	1%
 喌	cyeu1
 喌	cyuk	1%
+喎	'uo3	1%
 喎	khuai1
 喏	nya2
 喑	'im1
@@ -7012,7 +7013,7 @@ use_preset_vocabulary: true
 崷	zieu1
 崹	die1
 崺	yi2
-崽	srai1
+崽	ce2
 崾	'iou2
 崿	ngok
 嵀	dyu2
@@ -8373,8 +8374,9 @@ use_preset_vocabulary: true
 拐	kuai2
 拑	giem1
 拒	giu2
-拓	cyek	2%
-拓	thok	98%
+拓	cyek	1%
+拓	thap	50%
+拓	thok	50%
 拔	bat
 拔	bot	5%
 拔	vat	1%
@@ -8382,7 +8384,10 @@ use_preset_vocabulary: true
 拕	tho1
 拖	tho1
 拖	tho3
-拗	'au2
+拗	'au2	50%
+拗	'au3	50%
+拗	'iuk	1%
+拗	nieu3	1%
 拘	kiu1
 拙	cyot
 拚	bien3	1%
@@ -8929,7 +8934,9 @@ use_preset_vocabulary: true
 擭	ru3	1%
 擭	ruok
 擯	pin3
-擰	nieng2
+擰	nieng1	33%
+擰	nieng2	33%
+擰	nieng3	33%
 擱	kok
 擲	dyek
 擳	cret
@@ -9647,7 +9654,8 @@ use_preset_vocabulary: true
 柳	lieu2
 柴	zrai1
 柵	chrak	50%
-柵	sran3	50%
+柵	sran1	50%
+柵	sran3	1%
 柶	si3
 柷	chyuk
 柷	cyuk
@@ -11907,8 +11915,9 @@ use_preset_vocabulary: true
 熟	zyuk
 熠	yip
 熧	ciung1
-熨	'iut	98%
-熨	'ui3	2%
+熨	'iut	50%
+熨	'ui3	1%
+熨	yun3	50%
 熩	ru2
 熪	yi1
 熬	ngou1
@@ -20181,7 +20190,8 @@ use_preset_vocabulary: true
 閒	kean1	33%
 閒	kean3	33%
 閒	rean1	33%
-間	kean3
+間	kean1	95%
+間	kean3	5%
 閔	min2
 閘	'eap	50%
 閘	kop	50%
@@ -21261,8 +21271,8 @@ use_preset_vocabulary: true
 骬	yu1
 骭	kon3
 骭	rean3	1%
-骯	khong2	50%
-骯	rong2	50%
+骯	'ong1
+骯	khong2	1%
 骰	deu1
 骱	keat	50%
 骱	rot	50%
@@ -21301,7 +21311,8 @@ use_preset_vocabulary: true
 髎	liou1
 髏	leu1
 髑	duk
-髒	cong2
+髒	cong1
+髒	cong2	1%
 髓	sui2
 體	thie2
 髕	bin2
@@ -27308,6 +27319,8 @@ use_preset_vocabulary: true
 一丁不識	'it tieng1 fet syk
 一丁不識	'it tieng1 pet syk
 一丈差九尺	'it dyang2 chra1 kieu2 chyek
+一不拗衆	'it fet nieu3 cyung3
+一不拗衆	'it pet nieu3 cyung3
 一丘之貉	'it khieu1 cy1 rok
 一丸泥	'it ruon1 nie1
 一之爲甚	'it cy1 yui1 zym2
@@ -27377,6 +27390,7 @@ use_preset_vocabulary: true
 一彈指	'it dan1 cy2
 一彈指頃	'it dan1 cy2 khuing2
 一念之差	'it niem3 cy1 chra1
+一念之間	'it niem3 cy1 kean1
 一意孤行	'it 'i3 ku1 reang1
 一應	'it 'ing1
 一應俱全	'it 'ing1 kiu1 zion1
@@ -27393,6 +27407,8 @@ use_preset_vocabulary: true
 一掃而空	'it sou2 ny1 khung1
 一操	'it chou1
 一日爲師	'it nyt yui1 sri1
+一時之間	'it zy1 cy1 kean1
+一時間	'it zy1 kean1
 一暴十寒	'it vuk zyp ron1
 一更	'it kang1
 一朝	'it tyou1
@@ -27434,6 +27450,7 @@ use_preset_vocabulary: true
 一着不慎	'it tyak fet zyn3
 一着不慎	'it tyak pet zyn3
 一着錯	'it tyak chok
+一瞬間	'it syun3 kean1
 一矢中的	'it sy2 tyung3 tiek
 一石米養個仇人	'it tam3 mie2 yang2 ko3 zyeu1 nyn1
 一碗水往平處端	'it 'uon2 syui2 yong2 bieng1 chyu3 ton1
@@ -27494,7 +27511,7 @@ use_preset_vocabulary: true
 一長一短	'it dyang1 'it ton2
 一長二短	'it dyang1 ny3 ton2
 一長兩短	'it dyang1 liang2 ton2
-一霎間	'it srap kean3
+一霎間	'it srap kean1
 一面之識	'it mien3 cy1 syk
 一面倒	'it mien3 tou2
 一音教	'it 'im1 keau3
@@ -27570,7 +27587,7 @@ use_preset_vocabulary: true
 三差兩錯	sam1 chra1 liang2 chok
 三年之喪	sam1 nien1 cy1 song1
 三年五載	sam1 nien1 ngu2 ce2
-三度空間	sam1 du3 khung1 kean3
+三度空間	sam1 du3 khung1 kean1
 三復	sam1 veu3
 三復	sam1 vuk
 三復	sam3 veu3
@@ -27617,7 +27634,7 @@ use_preset_vocabulary: true
 三相	sam1 siang3
 三等分	sam1 teng2 fen1
 三等分角	sam1 teng2 fen1 keok
-三維空間	sam1 yui1 khung1 kean3
+三維空間	sam1 yui1 khung1 kean1
 三腳蝦蟆沒處尋	sam1 kiak ra1 ma1 met chyu3 jim1
 三自愛國教會	sam1 zi3 'e3 kuek keau3 rue3
 三自教會	sam1 zi3 keau3 rue3
@@ -27643,6 +27660,8 @@ use_preset_vocabulary: true
 三阿姨	sam1 'a1 yi1
 三階教	sam1 keai1 keau3
 三零四散	sam1 lieng1 si3 san3
+上下班時間	zyang2 rea2 pan1 zy1 kean1
+上下班時間	zyang3 rea2 pan1 zy1 kean1
 上下相安	zyang2 rea2 siang1 'on1
 上下相安	zyang3 rea2 siang1 'on1
 上不了臺面	zyang2 fet liou2 de1 mien3
@@ -27709,6 +27728,8 @@ use_preset_vocabulary: true
 上海音樂學院	zyang3 he2 'im1 ngeok reok yon3
 上漲	zyang2 tyang2
 上漲	zyang3 tyang2
+上班時間	zyang2 pan1 zy1 kean1
+上班時間	zyang3 pan1 zy1 kean1
 上當	zyang2 tong3
 上當	zyang3 tong3
 上疏	zyang2 sru3
@@ -28003,6 +28024,8 @@ use_preset_vocabulary: true
 不在了	pet ze2 lek
 不在五行中	fet ze2 ngu2 reang1 tyung1
 不在五行中	pet ze2 ngu2 reang1 tyung1
+不在人間	fet ze2 nyn1 kean1
+不在人間	pet ze2 nyn1 kean1
 不在少數	fet ze2 syou2 sru3
 不在少數	pet ze2 syou2 sru3
 不在行	fet ze2 rong1
@@ -28183,6 +28206,8 @@ use_preset_vocabulary: true
 不是耍處	pet zy2 sro2 chyu3
 不是處	fet zy2 chyu3
 不是處	pet zy2 chyu3
+不時間	fet zy1 kean1
+不時間	pet zy1 kean1
 不更事	fet keang1 zri3
 不更事	pet keang1 zri3
 不曾	fet zeng1
@@ -28447,6 +28472,8 @@ use_preset_vocabulary: true
 不終朝	pet cyung1 tyou1
 不經事少年	fet kieng1 zri3 syou3 nien1
 不經事少年	pet kieng1 zri3 syou3 nien1
+不經意間	fet kieng1 'i3 kean1
+不經意間	pet kieng1 'i3 kean1
 不繆	fet mieu3
 不繆	pet mieu3
 不繫舟	fet rie3 cyeu1
@@ -28641,12 +28668,18 @@ use_preset_vocabulary: true
 不長眼睛	pet tyang2 ngean2 cieng1
 不長進	fet tyang2 cin3
 不長進	pet tyang2 cin3
+不間不架	fet kean1 fet kea3
+不間不架	pet kean1 pet kea3
+不間不界	fet kean1 fet keai3
+不間不界	pet kean1 pet keai3
 不阿	fet 'o1
 不阿	pet 'o1
 不隄防	fet die1 vong1
 不隄防	pet die1 vong1
 不難	fet nan1
 不難	pet nan1
+不食人間煙火	fet zyk nyn1 kean1 'ien1 huo2
+不食人間煙火	pet zyk nyn1 kean1 'ien1 huo2
 不飽和	fet pau2 ruo1
 不飽和	pet pau2 ruo1
 不飽和脂肪酸	fet pau2 ruo1 cy1 vong1 son1
@@ -28672,6 +28705,7 @@ use_preset_vocabulary: true
 世界銀行	sye3 keai3 ngin1 rong1
 世行	sye3 rong1
 世貿大廈	sye3 meu3 da3 rea2
+世間	sye3 kean1
 丘處機	khieu1 chyu2 ki1
 丙種射線	pieng2 cyung2 zya3 sien3
 丙種經紀人	pieng2 cyung2 kieng1 ki2 nyn1
@@ -28705,6 +28739,7 @@ use_preset_vocabulary: true
 中共中央宣傳部	tyung1 giung3 tyung1 'iang1 sion1 dyon1 bu2
 中共中央紀委監察部	tyung1 giung3 tyung1 'iang1 ki2 'ui2 keam1 chrat bu2
 中分	tyung1 fen1
+中原標準時間	tyung1 ngion1 piou1 cyun2 zy1 kean1
 中吃	tyung3 khiek
 中和	tyung1 ruo1
 中和劑	tyung1 ruo1 zie3
@@ -28845,7 +28880,20 @@ use_preset_vocabulary: true
 中鏢	tyung3 phiou1
 中長跑	tyung1 dyang1 bau1
 中長鐵路	tyung1 dyang1 thiet lu3
-中間宿主	tyung1 kean3 siuk cyu2
+中間	tyung1 kean1
+中間人	tyung1 kean1 nyn1
+中間件	tyung1 kean1 gien2
+中間名	tyung1 kean1 mieng1
+中間商	tyung1 kean1 syang1
+中間地帶	tyung1 kean1 di3 tai3
+中間宿主	tyung1 kean1 siuk cyu2
+中間層	tyung1 kean1 zeng1
+中間派	tyung1 kean1 phai3
+中間產品	tyung1 kean1 sran2 phim2
+中間砧木	tyung1 kean1 tym1 muk
+中間神經元	tyung1 kean1 zyn1 kieng1 ngion1
+中間纖維	tyung1 kean1 siem1 yui1
+中間路線	tyung1 kean1 lu3 sien3
 中非共和國	tyung1 fi1 giung3 ruo1 kuek
 中音	tyung1 'im1
 中音	tyung3 'im1
@@ -28891,10 +28939,12 @@ use_preset_vocabulary: true
 久長	kieu2 dyang1
 之死靡他	cy1 si2 mi2 tha1
 之死靡它	cy1 si2 mi2 tha1
+之間	cy1 kean1
 乍看	zra3 khon3
 乍着膽子	zra3 tyak tam2 ci2
 乖分	kuai1 fen1
 乖調	kuai1 diou3
+乖間	kuai1 kean3
 乘便	zyng1 bien3
 乘傳	zyng1 dyon3
 乘傳	zyng1 tyon3
@@ -28907,6 +28957,8 @@ use_preset_vocabulary: true
 乘興	zyng1 hing3
 乘興而來	zyng1 hing3 ny1 le1
 乘長風破萬里浪	zyng1 dyang1 fung1 pho3 wan3 li2 long3
+乘間	zyng1 kean3
+乘間投隙	zyng1 kean3 deu1 khiek
 乘馬	zyng1 ma2
 乘馬	zyng3 ma2
 乙炔	'it khiot
@@ -28995,6 +29047,7 @@ use_preset_vocabulary: true
 乾屎橛	kon1 sy2 kiot
 乾巴	kon1 pa1
 乾巴巴	kon1 pa1 pa1
+乾巴疵咧	kon1 pa1 zi1 liet
 乾急	kon1 kip
 乾打雷	kon1 ta2 lue1
 乾打雷	kon1 tang2 lue1
@@ -29179,6 +29232,7 @@ use_preset_vocabulary: true
 予假	yu2 kea3
 予取予求	yu1 chiu2 yu1 gieu1
 予小子	yu1 siou2 ci2
+事事拗違	zri3 zri3 'au3 yui1
 事件相關電位	zri3 gien2 siang1 kuan1 dien3 yui3
 事修而謗興	zri3 sieu1 ny1 pong3 hing1
 事假	zri3 kea3
@@ -29300,6 +29354,7 @@ use_preset_vocabulary: true
 五道將軍	ngu2 dou2 ciang1 kiun1
 五量店	ngu2 liang1 tiem3
 五金店鋪	ngu2 kim1 tiem3 phu3
+五陰世間	ngu2 'im1 sye3 kean1
 五陵年少	ngu2 ling1 nien1 syou3
 五雀六燕	ngu2 ciak liuk 'ien3
 五零四散	ngu2 lieng1 si3 san3
@@ -29364,6 +29419,7 @@ use_preset_vocabulary: true
 京觀	kieng1 kuon3
 京調	kieng1 diou3
 亭午夜分	dieng1 ngu2 ya3 fen1
+亭子間	dieng1 ci2 kean1
 亭長	dieng1 tyang2
 亮相	liang3 siang3
 亮色調	liang3 srek diou3
@@ -29376,6 +29432,7 @@ use_preset_vocabulary: true
 人不可貌相	nyn1 pet kho2 mau3 siang3
 人不爲己	nyn1 fet yui3 ki2
 人不爲己	nyn1 pet yui3 ki2
+人世間	nyn1 sye3 kean1
 人之將死	nyn1 cy1 ciang1 si2
 人事不省	nyn1 zri3 fet sieng2
 人事不省	nyn1 zri3 pet sieng2
@@ -29453,7 +29510,17 @@ use_preset_vocabulary: true
 人質	nyn1 ty3
 人車混行	nyn1 chya1 run2 reang1
 人道教育	nyn1 dou2 keau3 yuk
-人間佛教	nyn1 kean3 vet keau3
+人間	nyn1 kean1
+人間仙境	nyn1 kean1 sien1 kieng2
+人間佛教	nyn1 kean1 vet keau3
+人間冷暖	nyn1 kean1 lang2 non2
+人間喜劇	nyn1 kean1 hi2 giek
+人間地獄	nyn1 kean1 di3 ngiuk
+人間天上	nyn1 kean1 thien1 zyang2
+人間天上	nyn1 kean1 thien1 zyang3
+人間天堂	nyn1 kean1 thien1 dong1
+人間煙火	nyn1 kean1 'ien1 huo2
+人間詞話	nyn1 kean1 zi1 rua3
 人際傳播	nyn1 cie3 dyon1 po3
 人離家散	nyn1 li1 kea1 san3
 人難度	nyn1 nan1 du3
@@ -29508,6 +29575,7 @@ use_preset_vocabulary: true
 代數和	de3 sru3 ruo1
 代數幾何	de3 sru3 ki2 ro1
 代數幾何學	de3 sru3 ki2 ro1 reok
+代數拓撲	de3 sru3 thok fuk
 代數流行	de3 sru3 lieu1 reang1
 代數量	de3 sru3 liang3
 代爲說項	de3 yui1 syot reong2
@@ -29589,7 +29657,7 @@ use_preset_vocabulary: true
 任昉	nym1 fong2
 任期	nym3 gi1
 任筆沈詩	nym1 pit sym2 sy1
-任職期間	nym3 cyk gi1 kean3
+任職期間	nym3 cyk gi1 kean1
 任脈	nym3 mak
 任達華	nym3 dat rua3
 任重	nym3 dyung2
@@ -29601,8 +29669,8 @@ use_preset_vocabulary: true
 份量	ven3 liang3
 仿佛	fong2 fet
 仿圈	fong2 khion1
-仿射子空間	fong2 zya3 ci2 khung1 kean3
-仿射空間	fong2 zya3 khung1 kean3
+仿射子空間	fong2 zya3 ci2 khung1 kean1
+仿射空間	fong2 zya3 khung1 kean1
 仿行	fong2 reang1
 企佇	khi3 dyu2
 企及	khi3 gip
@@ -29618,7 +29686,7 @@ use_preset_vocabulary: true
 企業網路	khi3 ngiep wong2 lu3
 企業行銷	khi3 ngiep reang1 siou1
 企業識別系統	khi3 ngiep syk biet rie3 thung3
-企業間網路	khi2 ngiep kean3 wong2 lu3
+企業間網路	khi2 ngiep kean1 wong2 lu3
 企業集團	khi3 ngiep zip don1
 企求	khi3 gieu1
 企盼	khi3 phan3
@@ -29664,6 +29732,7 @@ use_preset_vocabulary: true
 休戚與共	hieu1 chiek yu2 giung3
 休教天下人負我	hieu1 keau3 thien1 rea2 nyn1 veu2 ngo2
 休牛散馬	hieu1 ngieu1 san3 ma2
+伯仲之間	pak dyung3 cy1 kean1
 伯勞飛燕	pak lou1 fi1 'ien3
 伯吉阿斯法	pak kit 'a1 si1 fap
 伯喈倒屣	pak keai1 tou3 sri2
@@ -29714,10 +29783,9 @@ use_preset_vocabulary: true
 位分	yui3 fen1
 位尊勢重	yui3 cun1 sye3 dyung2
 位尊勢重	yui3 cun1 sye3 dyung3
-位形空間	yui3 rieng1 khung1 kean3
+位形空間	yui3 rieng1 khung1 kean1
 位置效應	yui3 ty3 reau3 'ing3
 低劑量照射	tie1 zie3 liang3 cyou3 zya3
-低啞	tie1 'ea2
 低空	tie1 khung1
 低處	tie1 chyu3
 低調	tie1 diou3
@@ -29778,6 +29846,8 @@ use_preset_vocabulary: true
 作倒了行市	cok tou2 lek rong1 zy2
 作假	cok kea2
 作假賬	cok kea2 tyang3
+作息時間	cok sik zy1 kean1
+作息時間表	cok sik zy1 kean1 piou2
 作惡	cok 'ok
 作惡多端	cok 'ok to1 ton1
 作爲	cok yui1
@@ -30082,6 +30152,7 @@ use_preset_vocabulary: true
 修行人	sieu1 reang1 nyn1
 修行在個人	sieu1 reang1 ze2 ko3 nyn1
 修長	sieu1 dyang1
+俯仰之間	fu2 ngiang2 cy1 kean1
 俯看	fu2 khon3
 俯首稱臣	fu2 syeu2 chyng1 zyn1
 俱樂部	kiu1 lok bu2
@@ -30095,7 +30166,7 @@ use_preset_vocabulary: true
 倉頡中文碼	chong1 keat tyung1 wen1 ma2
 倉頡篇	chong1 keat phien1
 倉頡輸入法	chong1 keat syu1 nyp fap
-個人秀空間	ko3 nyn1 sieu3 khung1 kean3
+個人秀空間	ko3 nyn1 sieu3 khung1 kean1
 個個稱羨	ko3 ko3 chyng1 jen3
 個別差異	ko3 biet chra1 yi3
 個性難改	ko3 sieng3 nan1 ke2
@@ -30570,6 +30641,7 @@ use_preset_vocabulary: true
 停停當當	dieng1 dieng1 tong3 tong3
 停分	dieng1 fen1
 停喪	dieng1 song1
+停屍間	dieng1 sy1 kean1
 停戰和約	dieng1 cyen3 ruo1 'iak
 停潦	dieng1 lou3
 停留長智	dieng1 lieu1 tyang2 ty3
@@ -31120,6 +31192,7 @@ use_preset_vocabulary: true
 兩側對稱	liang2 crek tue3 chyng3
 兩兩相比	liang2 liang2 siang1 pi2
 兩分法	liang2 fen1 fap
+兩國之間	liang2 kuek cy1 kean1
 兩國相爭	liang2 kuek siang1 crang1
 兩性差異	liang2 sieng3 chra1 yi3
 兩性差距	liang2 sieng3 chra1 giu2
@@ -31328,6 +31401,7 @@ use_preset_vocabulary: true
 其樂無比	gi1 lok wu1 pi2
 其樂無窮	gi1 lok wu1 giung1
 其樂融融	gi1 lok yung1 yung1
+其間	gi1 kean1
 典獄長	tien2 ngiuk tyang2
 典當	tien2 tong3
 典範長存	tien2 vam2 dyang1 zun1
@@ -31439,7 +31513,7 @@ use_preset_vocabulary: true
 冷藏法	lang2 zong1 fap
 冷藏船	lang2 zong1 zyon1
 冷藏車	lang2 zong1 chya1
-冷藏間	lang2 zong1 kean3
+冷藏間	lang2 zong1 kean1
 冷處理	lang2 chyu2 li2
 冷軋	lang2 zrat
 冷軋鋼板	lang2 'eat kong1 pan2
@@ -31457,10 +31531,13 @@ use_preset_vocabulary: true
 凝咽	nging1 'iet
 凝眄	nging1 mien2
 凝結反應	nging1 kiet fan2 'ing3
+凝視時間	nging1 zy2 zy1 kean1
+凝視時間	nging1 zy3 zy1 kean1
 凝重	nging1 dyung2
 凝重	nging1 dyung3
 凡爾賽和約	vam1 ny2 se3 ruo1 'iak
 凡知	vam1 ty3
+凡間	vam1 kean1
 凱旋	khe2 jon1
 凱旋門	khe2 jon1 men1
 凱樂	khe2 ngeok
@@ -31964,7 +32041,7 @@ use_preset_vocabulary: true
 切碎	chiet sue3
 切磋	chiet cho1
 切磋琢磨	chiet cho1 trok mo1
-切空間	chiet khung1 kean3
+切空間	chiet khung1 kean1
 切線	chiet sien3
 切肉刀	chiet nyuk tou1
 切腹	chiet fuk
@@ -32007,6 +32084,7 @@ use_preset_vocabulary: true
 初喪	chru1 song1
 初更	chru1 kang1
 初等教育	chru1 teng2 keau3 yuk
+初間	chru1 kean1
 初露才華	chru1 lu3 ze1 rua1
 判官還講三分理	phon3 kuon1 ruan1 keong2 sam1 fen1 li2
 判教	phon3 keau3
@@ -32409,6 +32487,7 @@ use_preset_vocabulary: true
 力強	lik giang1
 力微任重	lik wi1 nym3 dyung2
 力微任重	lik wi1 nym3 dyung3
+力拓	lik thok
 力拚	lik phon3
 力畜	lik thyuk
 力盛	lik zyeng3
@@ -32581,6 +32660,7 @@ use_preset_vocabulary: true
 包藏	pau1 zong1
 包藏禍心	pau1 zong1 ruo2 sim1
 包衣種子	pau1 'i1 cyung2 ci2
+包間	pau1 kean1
 匆卒	chung1 chut
 匈牙利共和國	hiung1 ngea1 li3 giung3 ruo1 kuek
 匋齋藏石記	dou1 crai1 zong1 zyek ki3
@@ -32609,6 +32689,7 @@ use_preset_vocabulary: true
 化零爲整	hua3 lieng1 yui1 cyeng2
 化鴟爲鳳	hua3 chy1 yui1 vung3
 北京教育學院	pek kieng1 keau3 yuk reok yon3
+北京時間	pek kieng1 zy1 kean1
 北京航空學院	pek kieng1 rong1 khung1 reok yon3
 北京航空航天大學	pek kieng1 rong1 khung1 rong1 thien1 da3 reok
 北卡羅來納	pek kha2 lo1 le1 nop
@@ -32647,6 +32728,8 @@ use_preset_vocabulary: true
 區蓋	'eu1 ke3
 區處	khiu1 chyu2
 區長	khiu1 tyang2
+區間	khiu1 kean1
+區間車	khiu1 kean1 chya1
 十三經注疏	zyp sam1 kieng1 cyu3 sru3
 十三號星期五	zyp sam1 rou3 sieng1 gi1 ngu2
 十三行	zyp sam1 rong1
@@ -32674,6 +32757,7 @@ use_preset_vocabulary: true
 十惡不赦	zyp 'ok pet sya3
 十指有長短	zyp cy2 yeu2 dyang1 ton2
 十捉九着	zyp cyok kieu2 dyak
+十畝之間	zyp meu2 cy1 kean1
 十目一行	zyp muk 'it rong1
 十相具足	zyp siang3 giu3 ciuk
 十行俱下	zyp rong1 kiu1 rea2
@@ -32726,6 +32810,7 @@ use_preset_vocabulary: true
 升降機	syng1 keong3 ki1
 升降舵	syng1 keong3 do2
 午覺	ngu2 keau3
+午間	ngu2 kean1
 半分	pon3 fen1
 半吐半吞	pon3 thu2 pon3 then1
 半吐半露	pon3 thu2 pon3 lu3
@@ -32745,6 +32830,8 @@ use_preset_vocabulary: true
 半空裏翻觔斗	pon3 khung1 li2 fan1 kin1 teu2
 半部論語治天下	pon3 bu2 lun1 ngiu2 dy3 thien1 rea2
 半長軸	pon3 dyang1 dyuk
+半間不界	pon3 kean3 fet keai3
+半間不界	pon3 kean3 pet keai3
 卑宮菲食	pi1 kiung1 fi2 zyk
 卒中	chut tyung3
 卒乍	chut zra3
@@ -33115,6 +33202,7 @@ use_preset_vocabulary: true
 厲精更始	lie3 cieng1 kang1 sy2
 厲行	lie3 reang1
 厲行節約	lie3 reang1 ciet 'iak
+去取之間	khiu3 chiu2 cy1 kean1
 去就之分	khiu3 zieu3 cy1 ven3
 去處	khiu3 chyu3
 參假	chom1 kea3
@@ -33141,7 +33229,7 @@ use_preset_vocabulary: true
 參辰卯酉	srem1 zyn1 mau2 yeu2
 參辰日月	srem1 zyn1 nyt ngiot
 參量	chom1 liang3
-參量空間	chom1 liang3 khung1 kean3
+參量空間	chom1 liang3 khung1 kean1
 參錯	chrem1 chok
 又當別論	yeu3 tong1 biet lun3
 又稱	yeu3 chyng1
@@ -33176,7 +33264,7 @@ use_preset_vocabulary: true
 反應堆芯	fan2 'ing3 tue1 sim1
 反應式	fan2 'ing3 syk
 反應時	fan2 'ing1 zy1
-反應時間	fan2 'ing1 zy1 kean3
+反應時間	fan2 'ing1 zy1 kean1
 反應鍋	fan2 'ing3 kuo1
 反掌折枝	fan2 cyang2 cyet cy1
 反敗爲勝	fan2 bai3 yui1 syng3
@@ -33206,6 +33294,10 @@ use_preset_vocabulary: true
 反轉錄	fan2 tyon2 liuk
 反轉錄病毒	fan2 tyon2 liuk bieng3 duk
 反酷刑折磨公約	fan2 khuk rieng1 cyet mo1 kung1 'iak
+反間	fan2 kean3
+反間細作	fan2 kean3 sie3 cok
+反間計	fan2 kean3 kie3
+反間諜	fan2 kean3 diep
 反革命宣傳	fan2 kak mieng3 sion1 dyon1
 反革命宣傳煽動罪	fan2 kak mieng3 sion1 dyon1 syen1 dung2 zue2
 反飛彈	fan2 fi1 dan3
@@ -33476,6 +33568,7 @@ use_preset_vocabulary: true
 合不着	rop fet dyak
 合不着	rop pet dyak
 合久必分	rop kieu2 pit fen1
+合作無間	rop cok wu1 kean3
 合傳	rop dyon3
 合傳	rop tyon3
 合得着	rop tek dyak
@@ -33593,6 +33686,8 @@ use_preset_vocabulary: true
 名重識暗	mieng1 dyung2 syk 'om3
 名重識暗	mieng1 dyung3 syk 'om3
 名量詞	mieng1 liang3 zi1
+名間	mieng1 kean1
+名間鄉	mieng1 kean1 hiang1
 名降	mieng1 keong3
 名高難副	mieng1 kou1 nan1 feu3
 名高難副	mieng1 kou1 nan1 fuk
@@ -33938,7 +34033,7 @@ use_preset_vocabulary: true
 和易近人	ruo1 yek gin3 nyn1
 和易近人	ruo1 yi3 gin3 nyn1
 和春	ruo1 chyun1
-和時間賽跑	ruo1 zy1 kean3 se3 bau1
+和時間賽跑	ruo1 zy1 kean1 se3 bau1
 和景	ruo1 kieng2
 和暖	ruo1 non2
 和暢	ruo1 thyang3
@@ -34135,9 +34230,7 @@ use_preset_vocabulary: true
 咽頭	'ien1 deu1
 咽頭炎	'ien1 deu1 yem1
 咽鼓管	'ien1 ku2 kuon2
-咿咿啞啞	'i1 'i1 'ea2 'ea2
 咿哩呱喇	'i1 li2 kua1 lat
-咿啞	'i1 'ea2
 咿軋	'i1 'eat
 哀恫	'e1 thung1
 哀腸百轉	'e1 dyang1 pak tyon2
@@ -34280,37 +34373,15 @@ use_preset_vocabulary: true
 啓蒙運動	khie2 mung1 yun3 dung2
 啓處	khie2 chyu2
 啓行	khie2 reang1
-啞劇	'ea2 giek
-啞口	'ea2 kheu2
-啞口無言	'ea2 kheu2 wu1 ngien1
-啞叭夢見媽	'ea2 phat mung3 kien3 ma1
 啞吒	'ea3 tra3
 啞咽	'ea3 'iet
+啞啞	'ak 'ak
 啞啞	'ea3 'ea3
-啞嗓	'ea2 song2
-啞婦傾杯反受殃	'ea2 veu2 khuing1 pe1 fan2 zyeu2 'iang1
-啞子	'ea2 ci2
-啞子做夢	'ea2 ci2 cu3 mung3
-啞子吃黃蓮	'ea2 ci2 khiek ruong1 lien1
-啞子得夢	'ea2 ci2 tek mung3
-啞子托夢	'ea2 ci2 thok mung3
-啞巴	'ea2 pa1
-啞巴吃黃蓮	'ea2 pa1 khiek ruong1 lien1
-啞巴吃黃連	'ea2 pa1 khiek ruong1 lien1
-啞巴虧	'ea2 pa1 khui1
-啞戲	'ea2 hi3
-啞板	'ea2 pan2
-啞炮	'ea2 phau3
-啞然無生	'ea2 nyen1 wu1 srang1
-啞穴	'ea2 riot
+啞然	'ak nyen1
+啞然失笑	'ak nyen1 syt siou3
+啞然失色	'ak nyen1 syt srek
+啞然無言	'ak nyen1 wu1 ngien1
 啞終端	'ea3 cyung1 ton1
-啞聲	'ea2 syeng1
-啞謎	'ea2 mie3
-啞酒	'ea2 cieu2
-啞鈴	'ea2 lieng1
-啞默悄靜	'ea2 mek chiou2 zieng2
-啞點	'ea2 tiem2
-啞鼓	'ea2 ku2
 啦啦隊長	la1 la1 due3 tyang2
 啪啦	phak la1
 啪嗒	phak top
@@ -34344,7 +34415,6 @@ use_preset_vocabulary: true
 喉長氣短	reu1 dyang1 khi3 ton2
 喋喋便便	diep diep bien1 bien1
 喋喋便便	tiep tiep bien1 bien1
-喑啞	'im1 'ea2
 喑惡叱吒	'im1 'u1 chyt tra3
 喘咳	chyon2 khek
 喙長三尺	hui3 dyang1 sam1 chyek
@@ -34443,6 +34513,7 @@ use_preset_vocabulary: true
 喬治亞共和國	giou1 dy3 'ea3 giung3 ruo1 kuek
 單一神教	tan1 'it zyn1 keau3
 單于	zyen1 yu1
+單人間	tan1 nyn1 kean1
 單位切向量	tan1 yui3 chiet hiang3 liang3
 單位向量	tan1 yui3 hiang3 liang3
 單傳	tan1 dyon1
@@ -34478,6 +34549,7 @@ use_preset_vocabulary: true
 單調平凡	tan1 diou3 bieng1 vam1
 單車旅行	tan1 chya1 liu2 reang1
 單鏡反光相機	tan1 kieng3 fan2 kuong1 siang1 ki1
+單間	tan1 kean1
 單騎	tan1 gi3
 嗆咕	chiang1 ku1
 嗆咳	chiang3 khek
@@ -34535,9 +34607,8 @@ use_preset_vocabulary: true
 嘴強	cui2 kiang3
 嘴把子	cui2 pa3 ci2
 嘵咋	hiou1 cra3
-嘶啞	sie1 'ea2
-嘶啞聲	sie1 'ea2 syeng1
 嘻和	hi1 ruo1
+器世間	khi3 sye3 kean1
 器官銀行	khi3 kuon1 ngin1 rong1
 器械體操	khi3 reai3 thie2 chou1
 器樂	khi3 ngeok
@@ -34604,6 +34675,8 @@ use_preset_vocabulary: true
 囊空如洗	nong1 khung1 nyu1 sie2
 囚繫	jeu1 rie3
 囚首喪面	jeu1 syeu2 song1 mien3
+四不拗六	si3 fet 'au3 liuk
+四不拗六	si3 pet 'au3 liuk
 四停八當	si3 dieng1 pat tong3
 四分之一	si3 fen1 cy1 'it
 四分之三	si3 fen1 cy1 sam1
@@ -34623,7 +34696,7 @@ use_preset_vocabulary: true
 四大盆地	si3 da3 ben1 di3
 四川大地震	si3 chyon1 da3 di3 cyn3
 四平調	si3 bieng1 diou3
-四度空間	si3 du3 khung1 kean3
+四度空間	si3 du3 khung1 kean1
 四強	si3 giang1
 四念處	si3 niem3 chyu3
 四教	si3 keau3
@@ -34638,7 +34711,7 @@ use_preset_vocabulary: true
 四相	si3 siang3
 四稱	si3 chyng3
 四維時空	si3 yui1 zy1 khung1
-四維空間	si3 yui1 khung1 kean3
+四維空間	si3 yui1 khung1 kean1
 四腳朝天	si3 kiak dyou1 thien1
 四處	si3 chyu3
 四處碰壁	si3 chyu3 phang3 piek
@@ -34773,6 +34846,8 @@ use_preset_vocabulary: true
 國際太空站	kuek cie3 thai3 khung1 tram3
 國際文傳通訊社	kuek cie3 wen1 dyon1 thung1 sin3 zya2
 國際日期變更線	kuek cie3 nyt gi1 pien3 kang1 sien3
+國際民間組織	kuek cie3 min1 kean1 cu2 cy3
+國際民間組織	kuek cie3 min1 kean1 cu2 cyk
 國際清算銀行	kuek cie3 chieng1 son3 ngin1 rong1
 國際米蘭足球俱樂部	kuek cie3 mie2 lan1 ciuk gieu1 kiu1 lok bu2
 國際航空聯合會	kuek cie3 rong1 khung1 lien1 rop rue3
@@ -34841,6 +34916,8 @@ use_preset_vocabulary: true
 土調	thu2 diou3
 土豆泥	thu2 deu3 nie1
 土長根生	thu2 tyang2 ken1 srang1
+在不夷不惠之間	ze2 fet yi1 fet rui3 cy1 kean1
+在不夷不惠之間	ze2 pet yi1 pet rui3 cy1 kean1
 在傳輸過程中	ze2 dyon1 syu1 kuo3 dyeng1 tyung1
 在劫難逃	ze2 kiep nan1 dou1
 在大多數情況下	ze2 da3 to1 sru3 zieng1 hiong3 rea2
@@ -34856,6 +34933,8 @@ use_preset_vocabulary: true
 在真空中	ze2 cyn1 khung1 tyung1
 在職教育	ze2 cyk keau3 yuk
 在行	ze2 rong1
+在訴訟期間	ze2 su3 jung3 gi1 kean1
+在這期間	ze2 cya2 gi1 kean1
 在高處	ze2 kou1 chyu3
 地三鮮	di3 sam1 sien1
 地下油行	di3 rea2 yeu1 rong1
@@ -34907,6 +34986,7 @@ use_preset_vocabulary: true
 均分	kiun1 fen1
 均差	kiun1 chra1
 坊記	vong1 ki3
+坊間	fong1 kean1
 坎特伯雷大主教	khom2 dek pak lue1 da3 cyu2 keau3
 坐便器	zo2 bien3 khi3
 坐便器	zo3 bien3 khi3
@@ -34926,6 +35006,8 @@ use_preset_vocabulary: true
 坐言起行	zo3 ngien1 khi2 reang1
 坐賈	zo2 ku2
 坐賈	zo3 ku2
+坐間	zo2 kean1
+坐間	zo3 kean1
 坐騎	zo2 gi3
 坐騎	zo3 gi3
 坑蒙	khang1 mung1
@@ -35001,7 +35083,7 @@ use_preset_vocabulary: true
 堂分姑娘	dong1 ven3 ku1 niang1
 堂堂之陳	dong1 dong1 cy1 dyn3
 堂構更新	dong1 keu3 kang1 sin1
-堂間處燕	dong1 kean3 chyu2 'ien3
+堂間處燕	dong1 kean1 chyu2 'ien3
 堂頭和尚	dong1 deu1 ruo1 zyang3
 堅強	kien1 giang1
 堅強不屈	kien1 giang1 fet khiut
@@ -35109,6 +35191,7 @@ use_preset_vocabulary: true
 塵剎	dyn1 chrat
 塵埃傳染	dyn1 'e1 dyon1 nyem2
 塵累	dyn1 lui2
+塵間	dyn1 kean1
 境外轉運中心	kieng2 ngue3 tyon2 yun3 tyung1 sim1
 墊解	tiem3 keai3
 墜歡重拾	dyui3 huon1 dyung1 zyp
@@ -35121,6 +35204,8 @@ use_preset_vocabulary: true
 增長天	ceng1 tyang2 thien1
 增長率	ceng1 tyang2 liut
 增長見識	ceng1 tyang2 kien3 syk
+墦間	van1 kean1
+墦間酒肉	van1 kean1 cieu2 nyuk
 墨分五色	mek fen1 ngu2 srek
 墨卷	mek kion3
 墨竹工卡	mek tyuk kung1 kha2
@@ -35162,6 +35247,8 @@ use_preset_vocabulary: true
 壽數已盡	zyeu2 sru3 yi2 cin2
 壽者相	zyeu2 cya2 siang3
 壽藏	zyeu2 zong3
+夏令時間	rea2 lieng3 zy1 kean1
+夏令時間	rea3 lieng3 zy1 kean1
 夏威夷音樂	rea2 'ui1 yi1 'im1 ngeok
 夏威夷音樂	rea3 'ui1 yi1 'im1 ngeok
 夏朝	rea2 dyou1
@@ -35196,7 +35283,7 @@ use_preset_vocabulary: true
 外合裏應	ngue3 rop li2 'ing3
 外太空	ngue3 thai3 khung1
 外宿	ngue3 siuk
-外層空間	ngue3 zeng1 khung1 kean3
+外層空間	ngue3 zeng1 khung1 kean1
 外強中乾	ngue3 giang1 tyung1 kon1
 外役監獄	ngue3 yuik keam1 ngiuk
 外教	ngue3 keau3
@@ -35211,6 +35298,7 @@ use_preset_vocabulary: true
 外調	ngue3 diou3
 外長	ngue3 tyang2
 外長城	ngue3 dyang1 zyeng1
+外間	ngue3 kean1
 夙仇	siuk zyeu1
 夙夜爲謀	siuk ya3 yui1 meu1
 夙興	siuk hing1
@@ -35297,6 +35385,8 @@ use_preset_vocabulary: true
 夜行衣	ya3 reang1 'i1
 夜行軍	ya3 reang1 kiun1
 夜長夢多	ya3 dyang1 mung3 to1
+夜間	ya3 kean1
+夜間部	ya3 kean1 bu2
 夜靜更深	ya3 zieng2 kang1 sym1
 夜靜更長	ya3 zieng2 kang1 dyang1
 夜靜更闌	ya3 zieng2 kang1 lan1
@@ -35416,6 +35506,7 @@ use_preset_vocabulary: true
 大壑	da3 hok
 大多數	da3 to1 sru3
 大多數人	da3 to1 sru3 nyn1
+大大咧咧	da3 da3 liet liet
 大大小小	da3 da3 siou2 siou2
 大大方方	da3 da3 fong1 fong1
 大大法法	da3 da3 fap fap
@@ -35610,7 +35701,7 @@ use_preset_vocabulary: true
 大般涅槃經	da3 po1 niet bon1 kieng1
 大茅埔	da3 mau1 phu2
 大茴香子	da3 rue1 hiang1 ci2
-大菜間	da3 che3 kean3
+大菜間	da3 che3 kean1
 大落	da3 lok
 大落落	da3 lok lok
 大蒜效應	da3 son3 reau3 'ing3
@@ -35708,6 +35799,8 @@ use_preset_vocabulary: true
 大麯	da3 khiuk
 大麻中毒	da3 ma1 tyung3 duk
 大黃	dai3 ruong1
+天上人間	thien1 zyang2 nyn1 kean1
+天上人間	thien1 zyang3 nyn1 kean1
 天上少有	thien1 zyang2 syou2 yeu2
 天上少有	thien1 zyang3 syou2 yeu2
 天下無難事	thien1 rea2 wu1 nan1 zri3
@@ -35728,10 +35821,12 @@ use_preset_vocabulary: true
 天冠地屨	thien1 kuon1 di3 kiu3
 天分	thien1 ven3
 天和	thien1 ruo1
+天地世間	thien1 di3 sye3 kean1
 天地之別	thien1 di3 cy1 biet
 天地精華	thien1 di3 cieng1 rua1
 天地蓋載	thien1 di3 ke3 ce3
 天地蓋載	thien1 di3 ke3 ze3
+天地間	thien1 di3 kean1
 天塌了有地接着	thien1 thap lek yeu2 di3 ciep tyak
 天大地大	thien1 da3 di3 da3
 天奇地怪	thien1 gi1 di3 kuai3
@@ -35769,7 +35864,6 @@ use_preset_vocabulary: true
 天竺牡丹	thien1 tyuk meu2 tan1
 天竺葵	thien1 tyuk gui1
 天竺鼠	thien1 tyuk syu2
-天聾地啞	thien1 lung1 di3 'ea2
 天與人歸	thien1 yu3 nyn1 kui1
 天行	thien1 reang1
 天行健	thien1 reang1 gien3
@@ -35805,6 +35899,7 @@ use_preset_vocabulary: true
 太平本是將軍定	thai3 bieng1 pen2 zy2 ciang1 kiun1 dieng3
 太平盛世	thai3 bieng1 zyeng3 sye3
 太平興國	thai3 bieng1 hing1 kuek
+太平間	thai3 bieng1 kean1
 太監	thai3 keam3
 太空	thai3 khung1
 太空人	thai3 khung1 nyn1
@@ -35999,6 +36094,7 @@ use_preset_vocabulary: true
 套口供	thou3 kheu2 kiung3
 套種	thou3 cyung3
 套調	thou3 diou3
+套間	thou3 kean1
 奢入儉難	sya1 nyp giem2 nan1
 奢易儉難	sya1 yek giem2 nan1
 奢易儉難	sya1 yi3 giem2 nan1
@@ -36351,7 +36447,7 @@ use_preset_vocabulary: true
 子母炸彈	ci2 meu2 tra3 dan3
 子母相權	ci2 meu2 siang1 gion1
 子爲父隱	ci2 yui3 vu2 'in2
-子空間	ci2 khung1 kean3
+子空間	ci2 khung1 kean1
 子網屏蔽碼	ci2 wong2 bieng1 pie3 ma2
 子長	ci2 dyang1
 子長縣	ci2 dyang1 rion3
@@ -36363,7 +36459,7 @@ use_preset_vocabulary: true
 孕吐	ying3 thu3
 字相學	zi3 siang3 reok
 字號	zi3 rou3
-字裏行間	zi3 li2 rong1 kean3
+字裏行間	zi3 li2 rong1 kean1
 字調	zi3 diou3
 存儲卡	zun1 dyu1 kha2
 存勞	zun1 lou3
@@ -36390,6 +36486,7 @@ use_preset_vocabulary: true
 孟軻	mang3 kho1
 孢膜	bau2 mok
 季子囊空	kui3 ci2 nong1 khung1
+季孟之間	kui3 mang3 cy1 kean1
 季相	kui3 siang3
 孤力難爲	ku1 lik nan1 yui1
 孤掌難鳴	ku1 cyang2 nan1 mieng1
@@ -36631,6 +36728,7 @@ use_preset_vocabulary: true
 家長	kea1 tyang2
 家長制	kea1 tyang2 cye3
 家長裏短	kea1 dyang1 li2 ton2
+家間	kea1 kean1
 家雞打的團團轉	kea1 kie1 ta2 tiek don1 don1 tyon3
 家雞打的團團轉	kea1 kie1 tang2 tiek don1 don1 tyon3
 容臭	yung1 hieu3
@@ -37122,7 +37220,7 @@ use_preset_vocabulary: true
 對稱	tue3 chyng3
 對稱性	tue3 chyng3 sieng3
 對稱破缺	tue3 chyng3 pho3 khiot
-對稱空間	tue3 chyng3 khung1 kean3
+對稱空間	tue3 chyng3 khung1 kean1
 對稱軸	tue3 chyng3 dyuk
 對空射擊	tue3 khung1 zya3 kiek
 對空火器	tue3 khung1 huo2 khi3
@@ -37296,6 +37394,7 @@ use_preset_vocabulary: true
 少頭無尾	syou2 deu1 wu1 wi2
 少魂失魄	syou2 run1 syt phak
 少魂沒識	syou2 run1 met syk
+尖峰時間	ciem1 fung1 zy1 kean1
 尖擔兩頭脫	ciem1 tam3 liang2 deu1 dot
 尖擔兩頭脫	ciem1 tam3 liang2 deu1 thot
 尚可縫	zyang3 kho2 vung1
@@ -37310,6 +37409,7 @@ use_preset_vocabulary: true
 尤金塞爾南	yeu1 kim1 se3 ny2 nom1
 就便	zieu3 bien3
 就和	zieu3 ruo1
+就寢時間	zieu3 chim2 zy1 kean1
 就怕不識貨	zieu3 pha3 fet syk huo3
 就怕不識貨	zieu3 pha3 pet syk huo3
 就教	zieu3 keau3
@@ -37341,6 +37441,7 @@ use_preset_vocabulary: true
 居喪	kiu1 song1
 居心險惡	kiu1 sim1 hiem2 'ok
 居處	kiu1 chyu3
+居間	kiu1 kean1
 屈折	khiut cyet
 屈折語	khiut cyet ngiu2
 屈指可數	khiut cy2 kho2 sru2
@@ -37481,6 +37582,7 @@ use_preset_vocabulary: true
 川藏	chyon1 zong3
 州長	cyeu1 tyang2
 巡弋飛彈	jun1 yik fi1 dan3
+巡指間	jun1 cy2 kean1
 巡更	jun1 kang1
 巡航導彈	jun1 rong1 dou3 dan3
 巡行	jun1 reang1
@@ -37490,6 +37592,7 @@ use_preset_vocabulary: true
 巢居穴處	zrau1 kiu1 riot chyu2
 巢父	zrau1 vu2
 工作分析	kung1 cok fen1 siek
+工作時間	kung1 cok zy1 kean1
 工作量	kung1 cok liang3
 工傷假	kung1 syang1 kea3
 工業中毒	kung1 ngiep tyung3 duk
@@ -37502,7 +37605,7 @@ use_preset_vocabulary: true
 工種	kung1 cyung2
 工藝教育	kung1 ngie3 keau3 yuk
 工行	kung1 rong1
-工間操	kung1 kean3 chou1
+工間操	kung1 kean1 chou1
 左傳	co2 dyon3
 左傳	co2 tyon3
 左右兩難	co2 yeu3 liang2 nan1
@@ -37684,6 +37787,7 @@ use_preset_vocabulary: true
 席卷	jek kion2
 席卷亞洲	jek kion2 'ea3 cyeu1
 席卷天下	jek kion2 thien1 rea2
+席間函丈	jek kean1 rom1 dyang2
 帶俸差操	tai3 vung3 chrai1 chou1
 帶個好	tai3 ko3 hou2
 帶分數	tai3 fen1 sru3
@@ -37714,6 +37818,7 @@ use_preset_vocabulary: true
 幕上燕巢	mok zyang2 'ien3 zrau1
 幕上燕巢	mok zyang3 'ien3 zrau1
 幕燕鼎魚	mok 'ien3 tieng2 ngiu1
+幕間	mok kean1
 幢幡	drong1 fan1
 幢幢	drong1 drong1
 幢節	drong1 ciet
@@ -37800,6 +37905,7 @@ use_preset_vocabulary: true
 年輕有爲	nien1 khieng1 yeu2 yui1
 年輕氣盛	nien1 khieng1 khi3 zyeng3
 年長	nien1 tyang2
+年間	nien1 kean1
 并刀	pieng1 tou1
 并州	pieng1 cyeu1
 并州剪	pieng1 cyeu1 cien2
@@ -37924,7 +38030,7 @@ use_preset_vocabulary: true
 度量器	du3 liang3 khi3
 度量衡	du3 liang3 rang1
 度長絜大	dok dyang1 riet da3
-座標空間	zo3 piou1 khung1 kean3
+座標空間	zo3 piou1 khung1 kean1
 座無空席	zo3 wu1 khung1 jek
 庪縣	kui2 rion1
 庫克船長	khu3 khek zyon1 tyang2
@@ -37947,6 +38053,7 @@ use_preset_vocabulary: true
 康樂縣	khong1 lok rion3
 康瓠	khong1 ru1
 庸行	yung1 reang3
+廁身其間	chri3 syn1 gi1 kean1
 廂鋪	siang1 phu3
 廈門大學	rea2 men1 da3 reok
 廚師長	dyu1 sri1 tyang2
@@ -37959,6 +38066,7 @@ use_preset_vocabulary: true
 廣寧	kuong2 nieng1
 廣寧縣	kuong2 nieng1 rion3
 廣州和約	kuong2 cyeu1 ruo1 'iak
+廣廈萬間	kuong2 rea2 wan3 kean1
 廣播和未知服務器	kuong2 po3 ruo1 wi3 ty1 vuk wu3 khi3
 廣播電視事業處	kuong2 po3 dien3 zy2 zri3 ngiep chyu3
 廣播電視事業處	kuong2 po3 dien3 zy3 zri3 ngiep chyu3
@@ -37992,6 +38100,7 @@ use_preset_vocabulary: true
 弄倒	lung3 tou2
 弄假成真	lung3 kea2 zyeng1 cyn1
 弄好	lung3 hou2
+弄擰了	lung3 nieng2 lek
 弄狗相咬	lung3 keu2 siang1 ngeau2
 弄獐宰相	lung3 cyang1 ce2 siang3
 弄白相	lung3 bak siang3
@@ -38263,7 +38372,7 @@ use_preset_vocabulary: true
 彈性製造系統	dan1 sieng3 cye3 zou2 rie3 thung3
 彈性限度	dan1 sieng3 rean2 du3
 彈指	dan1 cy2
-彈指之間	dan1 cy2 cy1 kean3
+彈指之間	dan1 cy2 cy1 kean1
 彈指神功	dan1 cy2 zyn1 kung1
 彈掙	dan1 crang1
 彈撥	dan1 pot
@@ -38333,7 +38442,7 @@ use_preset_vocabulary: true
 彌縫	mi1 vung1
 彎奔	'uan1 pen1
 彎折	'uan1 cyet
-彎曲空間	'uan1 khiuk khung1 kean3
+彎曲空間	'uan1 khiuk khung1 kean1
 彖傳	thon3 dyon3
 彖傳	thon3 tyon3
 彝倫攸斁	yi1 liun1 yeu1 du3
@@ -38380,6 +38489,7 @@ use_preset_vocabulary: true
 彼得大帝	pi2 tek da3 tie3
 彼得羅維奇	pi2 tek lo1 yui1 gi1
 彼長我消	pi2 tyang2 ngo2 siou1
+往常間	yong2 zyang1 kean1
 往泥裏踩	yong2 nie3 li2 che2
 征勦	cyeng1 ciou2
 征斂無度	cyeng1 liem2 wu1 du3
@@ -38463,6 +38573,7 @@ use_preset_vocabulary: true
 得空	tek khung3
 得缺	tek khiot
 得閒	tek rean1
+得間	tek kean3
 得饒人處且饒人	tek nyou1 nyn1 chyu3 chia2 nyou1 nyn1
 得高歌處且高歌	tek kou1 ko1 chyu3 chia2 kou1 ko1
 從中斡旋	ziung1 tyung1 'uot jon1
@@ -39157,6 +39268,7 @@ use_preset_vocabulary: true
 慺慺	leu1 leu1
 慾壑難填	yuk hok nan1 dien1
 憂患意識	'ieu1 ruan3 'i3 syk
+憋拗	piet nieu3
 憑空	bing1 khung1
 憑空捏造	bing1 khung1 niet zou2
 憑空杜撰	bing1 khung1 du2 zron2
@@ -39434,6 +39546,7 @@ use_preset_vocabulary: true
 房宿錢	vong1 siuk zien1
 房累	vong1 lui3
 房貸銀行	vong1 the3 ngin1 rong1
+房間	vong1 kean1
 所作所爲	sru2 cok sru2 yui1
 所剩無幾	sru2 zyng3 wu1 ki2
 所向披靡	sru2 hiang3 phi1 mi2
@@ -39586,8 +39699,6 @@ use_preset_vocabulary: true
 打和哄	tang2 ruo3 rung3
 打哩	ta2 li1
 打哩	tang2 li1
-打啞謎	ta2 'ea2 mie3
-打啞謎	tang2 'ea2 mie3
 打嚏噴	ta2 tie3 phen1
 打嚏噴	tang2 tie3 phen1
 打圈	ta2 khion1
@@ -39676,6 +39787,8 @@ use_preset_vocabulary: true
 打甚麼緊	tang2 zym3 mo1 kin2
 打當	ta2 tong1
 打當	tang2 tong1
+打發時間	ta2 fat zy1 kean1
+打發時間	tang2 fat zy1 kean1
 打盤旋	ta2 bon1 jon1
 打盤旋	tang2 bon1 jon1
 打看	ta2 khon3
@@ -39835,6 +39948,8 @@ use_preset_vocabulary: true
 抓尖要強	cro1 ciem1 'iou3 giang1
 抓着癢處	crau1 tyak yang2 chyu3
 抓着癢處	cro1 tyak yang2 chyu3
+抓緊時間	crau1 kin2 zy1 kean1
+抓緊時間	cro1 kin2 zy1 kean1
 抔土未乾	beu1 thu2 wi3 kon1
 投中	deu1 tyung3
 投供	deu1 kiung1
@@ -39999,6 +40114,7 @@ use_preset_vocabulary: true
 押鋪	'eap phu3
 抽分	thyeu1 fen1
 抽咽	thyeu1 'iet
+抽時間	thyeu1 zy1 kean1
 抽樣調查	thyeu1 yang3 diou3 zra1
 抽空	thyeu1 khung3
 抽調	thyeu1 diou3
@@ -40048,7 +40164,31 @@ use_preset_vocabulary: true
 拒塞	giu2 sek
 拒載	giu2 ce3
 拒載	giu2 ze3
-拓撲空間	thok fuk khung1 kean3
+拓印	thap 'in3
+拓土開疆	thok thu2 khe1 kiang1
+拓地	thok di3
+拓宇	thok yu2
+拓寬	thok khuon1
+拓展	thok tyen2
+拓拔	thok bat
+拓拔	thok bot
+拓撲	thok fuk
+拓撲學	thok fuk reok
+拓撲空間	thok fuk khung1 kean1
+拓撲結構	thok fuk kiet keu3
+拓本	thap pen2
+拓殖	thok zyk
+拓片	thap phien3
+拓碑	thap pi1
+拓荒	thok huong1
+拓荒者	thok huong1 cya2
+拓落	thok lok
+拓落不羈	thok lok fet ki1
+拓落不羈	thok lok pet ki1
+拓跋	thok bot
+拓跋魏	thok bot ngui3
+拓邊	thok pien1
+拓銷	thok siou1
 拔了蘿蔔地皮寬	bat lek lo1 bek di3 bi1 khuon1
 拔了蘿蔔地皮寬	bot lek lo1 bek di3 bi1 khuon1
 拔刀相助	bat tou1 siang1 zru3
@@ -40075,6 +40215,8 @@ use_preset_vocabulary: true
 拔解	bot keai3
 拖天掃地	tho1 thien1 sou2 di3
 拖天掃地	tho3 thien1 sou2 di3
+拖延時間	tho1 yen1 zy1 kean1
+拖延時間	tho3 yen1 zy1 kean1
 拖拽	tho1 yet
 拖拽	tho3 yet
 拖泥帶水	tho1 nie1 tai3 syui2
@@ -40087,8 +40229,30 @@ use_preset_vocabulary: true
 拖鎗拽棒	tho3 chrang1 yet bong2
 拖長	tho1 dyang1
 拖長	tho3 dyang1
-拗強	'au2 kiang3
-拗處	'au2 chyu3
+拗不登	'au3 fet teng1
+拗不登	'au3 pet teng1
+拗不過	'au3 fet kuo3
+拗不過	'au3 pet kuo3
+拗口	'au3 kheu2
+拗口令	'au3 kheu2 lieng3
+拗口風	'au3 kheu2 fung1
+拗句	'au3 kiu3
+拗強	'au3 kiang3
+拗彆	'au3 pie3
+拗彆攪炒	'au3 pie3 keau2 chrau2
+拗怒	'iuk nu3
+拗性	nieu3 sieng3
+拗斷	'au3 don2
+拗斷	'au3 ton3
+拗曲作直	'au2 khiuk cok dyk
+拗甜	'au3 diem1
+拗相公	nieu3 siang3 kung1
+拗花	'au2 hua1
+拗處	'au3 chyu3
+拗蠻	'au3 man1
+拗陷	'au3 ream3
+拗體	'au3 thie2
+拗體詩	'au3 thie2 sy1
 拘傳	kiu1 dyon1
 拘神遣將	kiu1 zyn1 khien2 ciang3
 拘繫	kiu1 rie3
@@ -40154,6 +40318,7 @@ use_preset_vocabulary: true
 持更	dy1 kang1
 持正不阿	dy1 cyeng3 fet 'o1
 持正不阿	dy1 cyeng3 pet 'o1
+持續時間	dy1 juk zy1 kean1
 持蠡測海	dy1 li1 chrek he2
 持行	dy1 reang1
 持質	dy1 ty3
@@ -40185,6 +40350,8 @@ use_preset_vocabulary: true
 按分比例	'on3 fen1 pi2 lie3
 按勞分配	'on3 lou1 fen1 phe3
 按彊助弱	'on3 giang1 zru3 nyak
+按時間先後	'on3 zy1 kean1 sien1 reu2
+按時間先後	'on3 zy1 kean1 sien1 reu3
 按着葫蘆摳子	'on3 tyak ru1 lu1 kheu1 ci2
 按調	'on3 diou3
 按需分配	'on3 siu1 fen1 phe3
@@ -40323,6 +40490,7 @@ use_preset_vocabulary: true
 捫參歷井	men1 srem1 liek cieng2
 捫摸	men1 mok
 捭闔縱橫	pai2 rop ciung1 ruang1
+捱時間	ngai1 zy1 kean1
 捱磨	ngai1 mo1
 捱風緝縫	ngai1 fung1 chip vung3
 捲入漩渦	kion2 nyp jon1 'uo1
@@ -40508,8 +40676,6 @@ use_preset_vocabulary: true
 推橫車	thue1 ruang1 chya1
 推磨	thue1 mo3
 推稱	thue1 chyng1
-推聾做啞	thue1 lung1 cu3 'ea2
-推聾裝啞	thue1 lung1 crong1 'ea2
 推行	thue1 reang1
 推誠相見	thue1 zyeng1 siang1 kien3
 推調	thue1 diou1
@@ -40543,6 +40709,7 @@ use_preset_vocabulary: true
 提傀儡上戲場	die1 khue2 lue2 zyang2 hi3 dyang1
 提傀儡上戲場	die1 khue2 lue2 zyang3 hi3 dyang1
 提款卡	die1 khuon2 kha2
+提溜着心	die1 lieu3 tyak sim1
 提省	die1 sieng2
 提稱語	die1 chyng1 ngiu2
 提行	die1 rong1
@@ -40994,7 +41161,15 @@ use_preset_vocabulary: true
 擬阿拖品藥物	ngi2 'a1 tho1 phim2 yak wet
 擬阿拖品藥物	ngi2 'a1 tho3 phim2 yak wet
 擯相	pin3 siang3
-擰乾	nieng2 kon1
+擰乾	nieng1 kon1
+擰了	nieng2 lek
+擰嘴	nieng1 cui2
+擰性	nieng3 sieng3
+擰成一股	nieng1 zyeng1 'it ku2
+擰眉瞪眼	nieng1 mi1 dyng3 ngean2
+擰種	nieng3 cyung2
+擰脖子	nieng1 bet ci2
+擰開	nieng2 khe1
 擲彈筒	dyek dan3 dung1
 擴分	khuok fen1
 擴散	khuok san3
@@ -41723,6 +41898,7 @@ use_preset_vocabulary: true
 方便米飯	fong1 bien3 mie2 van3
 方便麪	fong1 bien3 mien3
 方員無真假	fong1 yon1 wu1 cyn1 kea2
+方寸之間	fong1 chun3 cy1 kean1
 方將	fong1 ciang1
 方差	fong1 chra1
 方枘圜鑿	fong1 nyui3 yon1 cok
@@ -41845,8 +42021,10 @@ use_preset_vocabulary: true
 旗靡	gi1 mi2
 旗鼓相望	gi1 ku2 siang1 wong3
 旗鼓相當	gi1 ku2 siang1 tong1
+既得期間	ki3 tek gi1 kean1
 日久天長	nyt kieu2 thien1 dyang1
 日久玩生	nyt kieu2 nguon3 srang1
+日光節約時間	nyt kuong1 ciet 'iak zy1 kean1
 日就月將	nyt zieu3 ngiot ciang1
 日引月長	nyt yin2 ngiot dyang1
 日旰忘食	nyt kon3 wong1 zyk
@@ -41876,6 +42054,8 @@ use_preset_vocabulary: true
 日近長安遠	nyt gin3 dyang1 'on1 yon2
 日長一線	nyt dyang1 'it sien3
 日長歲久	nyt dyang1 sui3 kieu2
+日間	nyt kean1
+日間部	nyt kean1 bu2
 日飲亡何	nyt 'im2 wu1 ro1
 日麗風和	nyt lie3 fung1 ruo1
 旦暮朝夕	tan3 mu3 tyou1 jek
@@ -41921,6 +42101,7 @@ use_preset_vocabulary: true
 明處	mieng1 chyu3
 明調	mieng1 diou3
 明鋪夜蓋	mieng1 phu1 ya3 ke3
+明間	mieng1 kean1
 明降	mieng1 keong3
 昏倒	hun1 tou2
 昏定晨省	hun1 dieng3 zyn1 sieng2
@@ -41989,7 +42170,7 @@ use_preset_vocabulary: true
 昭君出塞	cyou1 kiun1 chyut se3
 昭君和番	cyou1 kiun1 ruo1 fan1
 昭和	cyou1 ruo1
-昭和年間	cyou1 ruo1 nien1 kean3
+昭和年間	cyou1 ruo1 nien1 kean1
 昭和草	cyou1 ruo1 chou2
 是爲無勇	zy2 yui1 wu1 yung2
 是處	zy2 chyu3
@@ -42022,7 +42203,22 @@ use_preset_vocabulary: true
 時行	zy1 reang1
 時行天氣	zy1 reang1 thien1 khi3
 時調	zy1 diou3
-時間差攻擊	zy1 kean3 chra1 kung1 kiek
+時間	zy1 kean1
+時間內	zy1 kean1 nue3
+時間區間	zy1 kean1 khiu1 kean1
+時間差攻擊	zy1 kean1 chra1 kung1 kiek
+時間序列	zy1 kean1 ju2 liet
+時間性	zy1 kean1 sieng3
+時間戳	zy1 kean1 throk
+時間測定學	zy1 kean1 chrek dieng3 reok
+時間簡史	zy1 kean1 kean2 sri2
+時間線	zy1 kean1 sien3
+時間藝術	zy1 kean1 ngie3 zyut
+時間表	zy1 kean1 piou2
+時間軸	zy1 kean1 dyuk
+時間進程	zy1 kean1 cin3 dyeng1
+時間醫學	zy1 kean1 'i1 reok
+時間電價	zy1 kean1 dien3 kea3
 時隱時見	zy1 'in2 zy1 rien3
 晉乘楚杌	cin3 zyng3 chru2 ngut
 晉寧	cin3 nieng1
@@ -42031,6 +42227,7 @@ use_preset_vocabulary: true
 晌覺	syang2 keau3
 晏幾道	'ean3 ki1 dou2
 晏朝	'ean3 dyou1
+晚間	wan2 kean1
 晚食當肉	wan2 zyk tong3 nyuk
 晝分	tyeu3 fen1
 晝夜兼行	tyeu3 ya3 kiem1 reang1
@@ -42046,7 +42243,7 @@ use_preset_vocabulary: true
 晨昏定省	zyn1 hun1 dieng3 sieng2
 晨昏顛倒	zyn1 hun1 tien1 tou2
 晨興夜寐	zyn1 hing1 ya3 mi3
-晨間	zyn1 kean3
+晨間	zyn1 kean1
 晨露	zyn1 lu3
 普世基督教	phu2 sye3 ki1 tuk keau3
 普世教會	phu2 sye3 keau3 rue3
@@ -42087,6 +42284,11 @@ use_preset_vocabulary: true
 智調	ty3 diou3
 智識	ty3 syk
 智量	ty3 liang1
+晻世	'om2 sye3
+晻昧	'om2 me3
+晻翳	'om2 'ie3
+晻藹	'om2 'e3
+晻靄	'om2 'e3
 晾乾	liang3 kon1
 暄和	hion1 ruo1
 暇景	rea3 'ieng2
@@ -42116,6 +42318,7 @@ use_preset_vocabulary: true
 暗行	'om3 rong1
 暗轉	'om3 tyon2
 暗適應	'om3 syek 'ing3
+暗間兒	'om3 kean1 ny1
 暗順應	'om3 zyun3 'ing3
 暢行	thyang3 reang1
 暢行無阻	thyang3 reang1 wu1 cru2
@@ -42165,6 +42368,7 @@ use_preset_vocabulary: true
 曲折	khiuk cyet
 曲折縈紆	khiuk cyet 'uing1 'iu1
 曲折離奇	khiuk cyet li1 gi1
+曲拗	khiuk 'au3
 曲曲折折	khiuk khiuk cyet cyet
 曲柄鑽	khiuk pieng3 con3
 曲率向量	khiuk liut hiang3 liang3
@@ -42429,12 +42633,14 @@ use_preset_vocabulary: true
 有彈性	yeu2 dan1 sieng3
 有德行	yeu2 tek reang1
 有志難酬	yeu2 cy3 nan1 zyeu1
+有情世間	yeu2 zieng1 sye3 kean1
 有意識	yeu2 'i3 syk
 有戲看	yeu2 hi3 khon3
 有所作爲	yeu2 sru2 cok yui1
 有擔保公債	yeu2 tam1 pou2 kung1 crai3
 有教無類	yeu2 keau3 wu1 lui3
 有教無類法	yeu2 keau3 wu1 lui3 fap
+有時間	yeu2 zy1 kean1
 有朝	yeu2 tyou1
 有朝一日	yeu2 tyou1 'it nyt
 有案可稽	yeu2 'on3 kho2 kie1
@@ -42477,6 +42683,7 @@ use_preset_vocabulary: true
 有識之士	yeu2 syk cy1 zri2
 有道則見	yeu2 dou2 cek rien3
 有量	yeu2 liang3
+有間	yeu2 kean3
 有難同當	yeu2 nan3 dung1 tong1
 有魂沒識	yeu2 run1 met syk
 朋分花用	beng1 fen1 hua1 yung3
@@ -42702,6 +42909,7 @@ use_preset_vocabulary: true
 期月有成	ki1 ngiot yeu2 zyeng1
 期服	ki1 vuk
 期歲	ki1 sui3
+期間	gi1 kean1
 期頤偕老	gi1 yi1 reai1 lou2
 木卡姆	muk kha2 meu2
 木塞	muk sek
@@ -42735,6 +42943,7 @@ use_preset_vocabulary: true
 未足爲道	wi3 ciuk yui1 dou2
 未足輕重	wi3 ciuk khieng1 dyung2
 未足輕重	wi3 ciuk khieng1 dyung3
+未達一間	wi3 dat 'it kean3
 未雨綢繆	wi3 yu2 dyeu1 meu1
 末了	mot liou2
 末大必折	mot da3 pit cyet
@@ -42866,6 +43075,7 @@ use_preset_vocabulary: true
 東觀之殃	tung1 kuon3 cy1 'iang1
 東躲西藏	tung1 to2 sie1 zong1
 東轉西晃	tung1 tyon2 sie1 ruong2
+東部時間	tung1 bu2 zy1 kean1
 東量西折	tung1 liang1 sie1 zyet
 東阿	tung1 'o1
 東阿縣	tung1 'o1 rion3
@@ -42993,6 +43203,8 @@ use_preset_vocabulary: true
 柳眉倒豎	lieu2 mi1 tou3 zyu2
 柴立不阿	zrai1 lip fet 'o1
 柴立不阿	zrai1 lip pet 'o1
+柵剌子	chrak lat ci2
+柵子	chrak ci2
 栓塞	sron1 sek
 校人	keau3 nyn1
 校刊	reau3 khon1
@@ -43089,9 +43301,9 @@ use_preset_vocabulary: true
 格子呢	kak ci2 ni1
 格子花呢	kak ci2 hua1 ni1
 格扇	kak syen3
-格林威治時間	kak lim1 'ui1 dy3 zy1 kean3
-格林威治標準時間	kak lim1 'ui1 dy3 piou1 cyun2 zy1 kean3
-格林尼治標準時間	kak lim1 ni1 dy3 piou1 cyun2 zy1 kean3
+格林威治時間	kak lim1 'ui1 dy3 zy1 kean1
+格林威治標準時間	kak lim1 'ui1 dy3 piou1 cyun2 zy1 kean1
+格林尼治標準時間	kak lim1 ni1 dy3 piou1 cyun2 zy1 kean1
 格羅寧根	kak lo1 nieng1 ken1
 格調	kak diou3
 栽種	ce1 cyung3
@@ -43116,6 +43328,9 @@ use_preset_vocabulary: true
 案長	'on3 tyang2
 桑乾河	song1 kon1 ro1
 桑乾盆地	song1 kon1 ben1 di3
+桑間之音	song1 kean1 cy1 'im1
+桑間濮上	song1 kean1 fuk zyang2
+桑間濮上	song1 kean1 fuk zyang3
 桓殷危語	ruon1 'in1 ngui1 ngiu2
 桔子	kiut ci2
 桔子水	kiut ci2 syui2
@@ -43139,6 +43354,7 @@ use_preset_vocabulary: true
 條理分明	diou1 li2 fen1 mieng1
 梟將	kiou1 ciang3
 梟騎	kiou1 gi3
+梢間	srau1 kean1
 梨園行	li1 yon1 rong1
 梨渦	li1 'uo1
 梯恩梯當量	thie1 'en1 thie1 tong1 liang3
@@ -43182,7 +43398,7 @@ use_preset_vocabulary: true
 椎埋	cyui1 mai1
 椎心泣血	cyui1 sim1 khip hiot
 椎牀倒枕	cyui1 zrong1 tou2 cym2
-椎間盤	cyui1 kean3 bon1
+椎間盤	cyui1 kean1 bon1
 椏杈	'ea1 chrai3
 楂楂	zra1 zra1
 楅衡	fuk rang1
@@ -43433,15 +43649,19 @@ use_preset_vocabulary: true
 樅陽	ciung1 yang1
 樅陽縣	ciung1 yang1 rion3
 樊於期	van1 'u1 gi1
+樓梯間	leu1 thie1 kean1
 樓車	leu1 kiu1
 樗散	thyu1 san2
 標占	piou1 cyem3
 標準差	piou1 cyun2 chra1
+標準時間	piou1 cyun2 zy1 kean1
+標準間	piou1 cyun2 kean1
 標稱	piou1 chyng1
 標稱核武器	piou1 chyng1 rak wu2 khi3
 標行	piou1 rong1
 標識	piou1 cy3
 標量	piou1 liang3
+標間	piou1 kean1
 標題音樂	piou1 die1 'im1 ngeok
 樞機主教	chyu1 ki1 cyu2 keau3
 模型玩具	mu1 rieng1 nguon1 giu3
@@ -43773,7 +43993,7 @@ use_preset_vocabulary: true
 正冠納履	cyeng3 kuon1 nop li2
 正向前看	cyeng3 hiang3 zien1 khon3
 正和	cyeng3 ruo1
-正字法空間	cyeng3 zi3 fap khung1 kean3
+正字法空間	cyeng3 zi3 fap khung1 kean1
 正安	cyeng1 'on1
 正安縣	cyeng1 'on1 rion3
 正宮娘娘	cyeng1 kiung1 niang1 niang1
@@ -43819,6 +44039,7 @@ use_preset_vocabulary: true
 此發彼應	chi2 fat pi2 'ing3
 此處不留人	chi2 chyu3 fet lieu1 nyn1
 此處不留人	chi2 chyu3 pet lieu1 nyn1
+此間	chi2 kean1
 步兵學校	bu3 pieng1 reok reau3
 步兵校尉	bu3 pieng1 reau3 'ui3
 步操	bu3 chou1
@@ -43946,6 +44167,7 @@ use_preset_vocabulary: true
 母難日	meu2 nan3 nyt
 母音調和	meu2 'im1 diou1 ruo1
 每分每秒	me2 fen1 me2 miou2
+每常間	me2 zyang1 kean1
 每日逐朝	me2 nyt dyuk tyou1
 每朝每日	me2 tyou1 me2 nyt
 每朝逐日	me2 tyou1 dyuk nyt
@@ -44091,8 +44313,22 @@ use_preset_vocabulary: true
 民胞物與	min1 pau1 wet yu2
 民衆教育	min1 cyung3 keau3 yuk
 民調	min1 diou3
-民間傳說	min1 kean3 dyon1 syot
-民間音樂	min1 kean3 'im1 ngeok
+民間	min1 kean1
+民間信仰	min1 kean1 sin3 ngiang2
+民間傳說	min1 kean1 dyon1 syot
+民間合會	min1 kean1 rop rue3
+民間團體	min1 kean1 don1 thie2
+民間工藝	min1 kean1 kung1 ngie3
+民間故事	min1 kean1 ku3 zri3
+民間文學	min1 kean1 wen1 reok
+民間歌舞	min1 kean1 ko1 wu2
+民間組織	min1 kean1 cu2 cy3
+民間組織	min1 kean1 cu2 cyk
+民間習俗	min1 kean1 jip juk
+民間舞	min1 kean1 wu2
+民間舞蹈	min1 kean1 wu2 dou3
+民間藝術	min1 kean1 ngie3 zyut
+民間音樂	min1 kean1 'im1 ngeok
 氟化物中毒	fet hua3 wet tyung3 duk
 氣候溫和	khi3 reu3 'un1 ruo1
 氣充文見	khi3 chyung1 wen1 rien3
@@ -44368,7 +44604,6 @@ use_preset_vocabulary: true
 沙卡洛夫	sra1 kha2 lok fu1
 沙參	sra1 srem1
 沙和尚	sra1 ruo1 zyang3
-沙啞	sra1 'ea2
 沙法維王朝	sra1 fap yui1 yong1 dyou1
 沙烏地阿拉伯	sra1 'u1 di3 'a1 la1 pak
 沙特阿拉伯	sra1 dek 'a1 la1 pak
@@ -44387,6 +44622,9 @@ use_preset_vocabulary: true
 河涸海乾	ro1 rok he2 kon1
 河清難俟	ro1 chieng1 nan1 zri2
 河落海乾	ro1 lok he2 kon1
+河間市	ro1 kean1 zy2
+河間獻王	ro1 kean1 hien3 yong1
+河間縣	ro1 kean1 rion3
 河隄	ro1 die1
 沸水式反應器	fi3 syui2 syk fan2 'ing3 khi3
 油回磨轉	yeu1 rue1 mo3 tyon2
@@ -44630,7 +44868,10 @@ use_preset_vocabulary: true
 洋行	yang1 rong1
 洒濯	sie2 drok
 洗削更革	sie2 siak kang1 kak
+洗手間	sie2 syeu2 kean1
 洗泥	sie2 nie1
+洗滌間	sie2 diek kean1
+洗澡間	sie2 cou2 kean1
 洗濯	sie2 drok
 洗然	sien2 nyen1
 洗盞更酌	sie2 cran2 kang1 cyak
@@ -44783,7 +45024,7 @@ use_preset_vocabulary: true
 消折	siou1 zyet
 消散	siou1 san3
 消磨	siou1 mo1
-消磨時間	siou1 mo1 zy1 kean3
+消磨時間	siou1 mo1 zy1 kean1
 消耗量	siou1 hou3 liang3
 消長	siou1 tyang2
 消閒兒	siou1 rean1 ny1
@@ -44870,6 +45111,7 @@ use_preset_vocabulary: true
 淺淺	cien1 cien1
 淺見寡識	chien2 kien3 kua2 syk
 淺見薄識	chien2 kien3 bok syk
+淺間山	chien2 kean1 sran1
 淺鮮	chien2 sien2
 添綴	thiem1 tyui3
 清史列傳	chieng1 sri2 liet dyon3
@@ -44895,6 +45137,7 @@ use_preset_vocabulary: true
 清蹕傳道	chieng1 pit dyon1 dou2
 清靜無爲	chieng1 zieng2 wu1 yui1
 渙散	huon3 san3
+減壓時間表	keam2 'eap zy1 kean1 piou2
 減少	keam2 syou2
 減數分裂	keam2 sru3 fen1 liet
 減煠	keam2 zrap
@@ -44935,6 +45178,7 @@ use_preset_vocabulary: true
 渴驥奔泉	khot ki3 pen1 zion1
 游僧攢住持	yeu1 seng1 zon1 dyu3 dy1
 游僧攢住持	yeu1 seng1 zon1 tyu3 dy1
+游戲人間	yeu1 hi3 nyn1 kean1
 游手好閒	yeu1 syeu2 hou3 rean1
 游標卡尺	yeu1 piou1 kha2 chyek
 游泳圈	yeu1 yuing3 khion1
@@ -45039,6 +45283,7 @@ use_preset_vocabulary: true
 滾肚	kun2 du2
 滾肚索	kun2 du2 sok
 滾調	kun2 diou3
+滿世間	mon2 sye3 kean1
 滿以爲	mon2 yi2 yui1
 滿分	mon2 fen1
 滿口應允	mon2 kheu2 'ing3 yun2
@@ -45048,6 +45293,7 @@ use_preset_vocabulary: true
 滿好個	mon2 hou2 ko3
 滿應滿許	mon2 'ing3 mon2 hiu2
 滿拚自盡	mon2 phon3 zi3 zin2
+滿擰	mon2 nieng2
 滿散	mon2 san3
 滿朝	mon2 dyou1
 滿朝文武	mon2 dyou1 wen1 wu2
@@ -45107,6 +45353,7 @@ use_preset_vocabulary: true
 漂雷	phiou1 lue1
 漂鳥	phiou1 tiou2
 漆彈	chit dan3
+漏刻之間	leu3 khek cy1 kean1
 漏斗狀花冠	leu3 teu2 zrong3 hua1 kuon1
 漏春和尚	leu3 chyun1 ruo1 zyang3
 漏水轉渾天儀	leu3 syui2 tyon3 run1 thien1 ngi1
@@ -45115,7 +45362,6 @@ use_preset_vocabulary: true
 漏眼不藏絲	leu3 ngean2 pet zong1 si1
 漏脯充飢	leu3 fu2 chyung1 ki1
 漏脯充饑	leu3 fu2 chyung1 ki1
-演啞劇	yen2 'ea2 giek
 演藝圈	yen2 ngie3 khion1
 漕轉	zou1 tyon2
 漚子	'eu1 ci2
@@ -45204,6 +45450,7 @@ use_preset_vocabulary: true
 潦草塞責	liou1 chou2 sek crak
 潮差	dyou1 chra1
 潮樂	dyou1 ngeok
+潮間帶	dyou1 kean1 tai3
 澄泥硯	drang1 nie1 ngien3
 澄泥硯	dyng1 nie1 ngien3
 澄澹精致	drang1 dam2 cieng1 ty3
@@ -45282,8 +45529,11 @@ use_preset_vocabulary: true
 濟濟多士	cie2 cie2 to1 zri2
 濟濟彬彬	cie2 cie2 pin1 pin1
 濟濟鏘鏘	cie2 cie2 chiang1 chiang1
+濠濮間想	rou1 fuk kean1 siang2
 濫行	lam3 reang1
 濫調	lam3 diou3
+濮上桑間	fuk zyang2 song1 kean1
+濮上桑間	fuk zyang3 song1 kean1
 濯冠	drok kuon3
 濯污揚清	drok 'u1 yang1 chieng1
 濯淖	drok nau3
@@ -45428,6 +45678,7 @@ use_preset_vocabulary: true
 無惡不作	wu1 'ok fet cok
 無惡不作	wu1 'ok pet cok
 無意識	wu1 'i3 syk
+無意間	wu1 'i3 kean1
 無所不爲	wu1 sru2 fet yui1
 無所不爲	wu1 sru2 pet yui1
 無所作爲	wu1 sru2 cok yui1
@@ -45483,6 +45734,7 @@ use_preset_vocabulary: true
 無量壽佛	wu1 liang3 zyeu2 vet
 無量壽經	wu1 liang3 zyeu2 kieng1
 無量斗	wu1 liang3 teu2
+無間	wu1 kean3
 無顛無倒	wu1 tien1 wu1 tou2
 焰色分析	yem3 srek fen1 siek
 煎牛扒	cien1 ngieu1 pat
@@ -45554,6 +45806,11 @@ use_preset_vocabulary: true
 熟讀王叔和不如臨症多	zyuk duk yong1 syuk ruo1 pet nyu1 lim1 cyeng3 to1
 熟讀玩味	zyuk duk nguon3 wi3
 熟路輕車	zyuk lu3 khieng1 kiu1
+熟間	zyuk kean3
+熨斗	yun3 teu2
+熨法	yun3 fap
+熨衣枕	yun3 'i1 cym2
+熨貼	'iut thiep
 熬磨	ngou1 mo1
 熱乾麵	nyet kon1 mien3
 熱傳導	nyet dyon1 dou3
@@ -45706,6 +45963,7 @@ use_preset_vocabulary: true
 燕麥	'ien3 mak
 燕麥片	'ien3 mak phien3
 燕麥粥	'ien3 mak cyuk
+營業時間	yuing1 ngiep zy1 kean1
 營長	yuing1 tyang2
 營養失調	yuing1 yang2 syt diou1
 營養強化蛋	yuing1 yang2 giang1 hua3 dan2
@@ -45880,6 +46138,7 @@ use_preset_vocabulary: true
 牢靠妥當	lou1 khou3 tho2 tong3
 牧養納畜	muk yang2 nop thyuk
 物以稀爲貴	wet yi2 hi1 yui1 kui3
+物我無間	wet ngo2 wu1 kean3
 物理量	wet li2 liang3
 物盛則衰	wet zyeng3 cek chrue1
 物盛則衰	wet zyeng3 cek srue1
@@ -46008,13 +46267,13 @@ use_preset_vocabulary: true
 猗頓	'i2 tun3
 猛一看	mang2 'it khon3
 猛將	mang2 ciang3
+猛然間	mang2 nyen1 kean1
 猛省	mang2 sieng2
 猛着先鞭	mang2 tyak sien1 pien1
 猛着祖鞭	mang2 tyak cu2 pien1
 猜不着	che1 fet dyak
 猜不着	che1 pet dyak
 猜中	che1 tyung3
-猜啞謎	che1 'ea2 mie3
 猜度	che1 dok
 猜度	che1 du3
 猜調	che1 diou3
@@ -46276,6 +46535,7 @@ use_preset_vocabulary: true
 環極渦旋	ruan1 gik 'uo1 jon1
 環法自行車賽	ruan1 fap zi3 reang1 chya1 se3
 環球旅行	ruan1 gieu1 liu2 reang1
+環球時間	ruan1 gieu1 zy1 kean1
 環環相扣	ruan1 ruan1 siang1 kheu3
 環肥燕瘦	ruan1 vi1 'ien3 sreu3
 環行	ruan1 reang1
@@ -46306,6 +46566,7 @@ use_preset_vocabulary: true
 甑箄	cing3 pi1
 甕天蠡海	'ung3 thien1 li1 he2
 甕盡杯乾	'ung3 zin2 pe1 kon1
+甕間吏部	'ung3 kean1 li3 bu2
 甘之如薺	kom1 cy1 nyu1 zie2
 甘分	kom1 ven3
 甘分隨時	kom1 ven3 jui1 zy1
@@ -46342,7 +46603,7 @@ use_preset_vocabulary: true
 甜圈	diem1 khion1
 甜甜圈	diem1 diem1 khion1
 生分	srang1 ven3
-生存空間	srang1 zun1 khung1 kean3
+生存空間	srang1 zun1 khung1 kean1
 生意擔子	srang1 'i3 tam3 ci2
 生意興隆	srang1 'i3 hing1 liung1
 生態圈	srang1 the3 khion1
@@ -46356,7 +46617,7 @@ use_preset_vocabulary: true
 生殺與奪	srang1 srat yu2 dot
 生活圈	srang1 ruot khion1
 生活教育	srang1 ruot keau3 yuk
-生活空間	srang1 ruot khung1 kean3
+生活空間	srang1 ruot khung1 kean1
 生活質量	srang1 ruot cyt liang3
 生活質量	srang1 ruot ty3 liang3
 生物倫琴當量	srang1 wet liun1 gim1 tong1 liang3
@@ -46411,11 +46672,15 @@ use_preset_vocabulary: true
 用行舍藏	yung3 reang1 sya2 zong1
 用計鋪謀	yung3 kie3 phu1 meu1
 用逸待勞	yung3 yit de2 lou1
+用間	yung3 kean1
+用餐時間	yung3 chan1 zy1 kean1
 田橫	dien1 ruang1
 田橫客	dien1 ruang1 khak
 田橫客笑人	dien1 ruang1 khak siou3 nyn1
 田父之獲	dien1 vu2 cy1 ruak
 田長霖	dien1 dyang1 lim1
+田間	dien1 kean1
+田間管理	dien1 kean1 kuon2 li2
 甲種國庫券	keap cyung2 kuek khu3 khion3
 甲種國民兵役	keap cyung2 kuek min1 pieng1 yuik
 甲長	keap tyang2
@@ -46560,7 +46825,7 @@ use_preset_vocabulary: true
 當國	tong1 kuek
 當地	tong1 di3
 當地居民	tong1 di3 kiu1 min1
-當地時間	tong1 di3 zy1 kean3
+當地時間	tong1 di3 zy1 kean1
 當坊土地	tong1 fong1 thu2 di3
 當堂	tong1 dong1
 當場	tong1 dyang1
@@ -46714,6 +46979,8 @@ use_preset_vocabulary: true
 畸輕畸重	ki1 khieng1 ki1 dyung2
 畸輕畸重	ki1 khieng1 ki1 dyung3
 疊矩重規	diep kiu2 dyung1 kui1
+疏不間親	sru1 fet kean3 chin1
+疏不間親	sru1 pet kean3 chin1
 疏忽大意	sru1 hut da3 'i3
 疏散	sru1 san3
 疏散措施	sru1 san3 chu3 sy1
@@ -46759,6 +47026,7 @@ use_preset_vocabulary: true
 病識感	bieng3 syk kom2
 病重	bieng3 dyung2
 病重	bieng3 dyung3
+病間	bieng3 kean3
 病體違和	bieng3 thie2 yui1 ruo1
 痛惡	thung3 'u3
 痛癢相關	thung3 yang2 siang1 kuan1
@@ -46768,8 +47036,6 @@ use_preset_vocabulary: true
 痴掙	thy1 crang1
 痴長	thy1 tyang2
 瘋長	fung1 tyang2
-瘖啞	'im1 'ea2
-瘖啞人	'im1 'ea2 nyn1
 瘦小枯乾	sreu3 siou2 khu1 kon1
 瘦長	sreu3 dyang1
 瘯蠡	chuk li1
@@ -46839,6 +47105,7 @@ use_preset_vocabulary: true
 白旄	bak mou1
 白旄黃鉞	bak mou1 ruong1 yot
 白日衣繡	bak nyt 'i3 sieu3
+白日間	bak nyt kean1
 白曉燕	bak hiou2 'ien3
 白朗寧	bak long2 nieng1
 白樂天	bak lok thien1
@@ -47202,7 +47469,6 @@ use_preset_vocabulary: true
 目窕心與	muk diou2 sim1 yu2
 目錄卡	muk liuk kha2
 盲人摸象	mang1 nyn1 mok jang2
-盲婚啞嫁	mang1 hun1 'ea2 kea3
 盲目行事	mang1 muk reang1 zri3
 直奔	dyk pen3
 直宿	dyk siuk
@@ -47329,7 +47595,7 @@ use_preset_vocabulary: true
 相對多數	siang1 tue3 to1 sru3
 相對密度	siang1 tue3 mit du3
 相對座標滑鼠	siang1 tue3 zo3 piou1 ruat syu2
-相對時間	siang1 tue3 zy1 kean3
+相對時間	siang1 tue3 zy1 kean1
 相對溼度	siang1 tue3 syp du3
 相對無言	siang1 tue3 wu1 ngien1
 相對論	siang1 tue3 lun3
@@ -47460,7 +47726,7 @@ use_preset_vocabulary: true
 相禮	siang3 lie2
 相稱	siang1 chyng1
 相稱	siang1 chyng3
-相空間	siang3 khung1 kean3
+相空間	siang3 khung1 kean1
 相符	siang1 vu1
 相等	siang1 teng2
 相簿	siang3 bu2
@@ -47585,6 +47851,10 @@ use_preset_vocabulary: true
 眉目傳情	mi1 muk dyon1 zieng1
 眉眼傳情	mi1 ngean2 dyon1 zieng1
 眉貼花鈿	mi1 thiep hua1 dien3
+眉間	mi1 kean1
+眉間尺	mi1 kean1 chyek
+眉間赤	mi1 kean1 chyek
+眉間輪	mi1 kean1 liun1
 看一看	khon3 'it khon3
 看上	khon3 zyang2
 看上	khon3 zyang3
@@ -47892,7 +48162,11 @@ use_preset_vocabulary: true
 瞑目寧心	mieng1 muk nieng1 sim1
 瞑眩	mien3 rion3
 瞥地	phiet di3
-瞬間轉移	syun3 kean3 tyon2 yi1
+瞬息之間	syun3 sik cy1 kean1
+瞬間	syun3 kean1
+瞬間停止裝置	syun3 kean1 dieng1 cy2 crong1 ty3
+瞬間目標	syun3 kean1 muk piou1
+瞬間轉移	syun3 kean1 tyon2 yi1
 瞭亮	liou2 liang3
 瞭哨	liou1 srau3
 瞭如指掌	liou2 nyu1 cy2 cyang2
@@ -47916,6 +48190,7 @@ use_preset_vocabulary: true
 矛盾相向	meu1 dun2 siang1 hiang3
 矜重	king1 dyung2
 矜重	king1 dyung3
+矢石之間	sy2 zyek cy1 kean1
 矢石之難	sy2 zyek cy1 nan3
 矢量	sy2 liang3
 知之爲知之	ty1 cy1 yui1 ty1 cy1
@@ -47981,6 +48256,7 @@ use_preset_vocabulary: true
 短嘆長吁	ton2 than3 dyang1 hiu1
 短少	ton2 syou2
 短折	ton2 cyet
+短時間	ton2 zy1 kean1
 短波長	ton2 po1 dyang1
 短處	ton2 chyu3
 短處捏	ton2 chyu3 niet
@@ -48272,7 +48548,7 @@ use_preset_vocabulary: true
 禁不起	kim1 fet khi2
 禁不起	kim1 pet khi2
 禁受	kim1 zyeu2
-禁受時間的考驗	kim1 zyeu2 zy1 kean3 tiek khou2 ngiem3
+禁受時間的考驗	kim1 zyeu2 zy1 kean1 tiek khou2 ngiem3
 禁地	kim3 di3
 禁子	kim3 ci2
 禁得	kim1 tek
@@ -48490,7 +48766,7 @@ use_preset_vocabulary: true
 種薯	cyung2 zyu3
 種蛋	cyung2 dan2
 種豆得豆	cyung3 deu3 tek deu3
-種間雜交	cyung2 kean3 zop keau1
+種間雜交	cyung2 kean1 zop keau1
 種類	cyung2 lui3
 種馬	cyung2 ma2
 種麥得麥	cyung3 mak tek mak
@@ -48756,7 +49032,7 @@ use_preset_vocabulary: true
 空懷	khung1 ruai1
 空戰	khung1 cyen3
 空房	khung3 vong1
-空房間	khung1 vong1 kean3
+空房間	khung1 vong1 kean1
 空手	khung1 syeu2
 空手而回	khung1 syeu2 ny1 rue1
 空手而歸	khung1 syeu2 ny1 kui1
@@ -48795,7 +49071,7 @@ use_preset_vocabulary: true
 空氣流通	khung1 khi3 lieu1 thung1
 空氣浴	khung1 khi3 yuk
 空氣濾清器	khung1 khi3 liu3 chieng1 khi3
-空氣緩衝間	khung1 khi3 ruon2 chyung1 kean3
+空氣緩衝間	khung1 khi3 ruon2 chyung1 kean1
 空氣調節	khung1 khi3 diou1 ciet
 空氣調節機	khung1 khi3 diou1 ciet ki1
 空氣警報	khung1 khi3 kieng2 pou3
@@ -48902,18 +49178,18 @@ use_preset_vocabulary: true
 空鐘	khung1 cyung1
 空門	khung1 men1
 空閒	khung3 rean1
-空間	khung1 kean3
-空間主義	khung1 kean3 cyu2 ngi3
-空間分析	khung1 kean3 fen1 siek
-空間圖形	khung1 kean3 du1 rieng1
-空間局	khung1 kean3 giuk
-空間感	khung1 kean3 kom2
-空間探測	khung1 kean3 thom3 chrek
-空間時代	khung1 kean3 zy1 de3
-空間曲線	khung1 kean3 khiuk sien3
-空間站	khung1 kean3 tram3
-空間美	khung1 kean3 mi2
-空間藝術	khung1 kean3 ngie3 zyut
+空間	khung1 kean1
+空間主義	khung1 kean1 cyu2 ngi3
+空間分析	khung1 kean1 fen1 siek
+空間圖形	khung1 kean1 du1 rieng1
+空間局	khung1 kean1 giuk
+空間感	khung1 kean1 kom2
+空間探測	khung1 kean1 thom3 chrek
+空間時代	khung1 kean1 zy1 de3
+空間曲線	khung1 kean1 khiuk sien3
+空間站	khung1 kean1 tram3
+空間美	khung1 kean1 mi2
+空間藝術	khung1 kean1 ngie3 zyut
 空閨	khung1 kui1
 空闃	khung1 khuik
 空闊	khung1 khuot
@@ -48954,6 +49230,7 @@ use_preset_vocabulary: true
 突尼西亞共和國	dut ni1 sie1 'ea3 giung3 ruo1 kuek
 突擊檢查	dut kiek kiem2 zra1
 突梯滑稽	dut thie1 ruat kie1
+突然間	dut nyen1 kean1
 突發奇想	dut fat gi1 siang2
 突磨	dut mo1
 突突摸摸	dut dut mok mok
@@ -48965,6 +49242,7 @@ use_preset_vocabulary: true
 窖藏	keau3 zong1
 窗扇	chyong1 syen3
 窗檻	chyong1 ream2
+窗間過馬	chyong1 kean1 kuo3 ma2
 窠羅圈	khuo1 lo1 khion1
 窩藏	'uo1 zong1
 窩鋪	'uo1 phu3
@@ -48985,6 +49263,7 @@ use_preset_vocabulary: true
 窮途潦倒	giung1 du1 liou1 tou2
 窮途落魄	giung1 du1 lok thok
 窶數	giu2 sru2
+竈間	cou3 kean1
 竊占	chiet cyem3
 竊占罪	chiet cyem3 zue2
 立便	lip bien3
@@ -48994,6 +49273,7 @@ use_preset_vocabulary: true
 立教	lip keau3
 立當	lip tong1
 立盹行眠	lip cyun3 reang1 mien1
+立談之間	lip dam1 cy1 kean1
 立身處世	lip syn1 chyu2 sye3
 立身行己	lip syn1 reang1 ki2
 立身行道	lip syn1 reang1 dou2
@@ -49041,7 +49321,7 @@ use_preset_vocabulary: true
 笨重	ben2 dyung3
 第一人稱	die3 'it nyn1 chyng1
 第三人稱	die3 sam1 nyn1 chyng1
-第三度空間	die3 sam1 du3 khung1 kean3
+第三度空間	die3 sam1 du3 khung1 kean1
 第五縱隊	die3 ngu2 ciung1 due3
 第比利斯	die3 bi3 li3 si1
 第比利斯	die3 pi3 li3 si1
@@ -49096,6 +49376,7 @@ use_preset_vocabulary: true
 節操	ciet chou1
 節旄	ciet mou1
 節行瑰奇	ciet reang3 kue1 gi1
+節間	ciet kean1
 篇卷	phien1 kion3
 築壇拜將	tyuk dan1 pai3 ciang3
 篋扇	khiep syen3
@@ -49162,10 +49443,10 @@ use_preset_vocabulary: true
 籠街喝道	lung1 keai1 hot dou2
 籠鳥檻猿	liung1 tiou2 ream2 yon1
 籠鳥檻猿	lung1 tiou2 ream2 yon1
+籬壁間物	li1 piek kean1 wet
 籮擔	lo1 tam3
 粉刺	fen2 chi3
 粉渦	fen2 'uo1
-粗啞	zu2 'ea2
 粗惡	zu2 'ok
 粗樂	zu2 ngeok
 粗率	zu2 srut
@@ -49367,6 +49648,7 @@ use_preset_vocabulary: true
 終身爲父	cyung1 syn1 yui1 vu2
 終身監禁	cyung1 syn1 keam1 kim3
 終軍棄繻	cyung1 kiun1 khi3 nyu1
+終食之間	cyung1 zyk cy1 kean1
 終養	cyung1 yang3
 組分	cu2 ven3
 組成部分	cu2 zyeng1 bu2 ven3
@@ -49394,6 +49676,7 @@ use_preset_vocabulary: true
 絕大多數	ziot da3 to1 sru3
 絕大部份	ziot da3 bu2 ven3
 絕對大多數	ziot tue3 da3 to1 sru3
+絕對時間	ziot tue3 zy1 kean1
 絕對音樂	ziot tue3 'im1 ngeok
 絕甘分少	ziot kom1 fen1 syou2
 絕種	ziot cyung2
@@ -49474,7 +49757,7 @@ use_preset_vocabulary: true
 網杓	wong2 zyak
 網絡應用	wong2 lok 'ing3 yung3
 網絡操作系統	wong2 lok chou1 cok rie3 thung3
-網絡空間	wong2 lok khung1 kean3
+網絡空間	wong2 lok khung1 kean1
 網膜	wong2 mok
 網膜剝離	wong2 mok pok li1
 網路傳真	wong2 lu3 dyon1 cyn1
@@ -49482,14 +49765,14 @@ use_preset_vocabulary: true
 網路咖啡俱樂部	wong2 lu3 kha1 fi1 kiu1 lok bu2
 網路應用	wong2 lu3 'ing3 yung3
 網路教學	wong2 lu3 keau3 reok
-網路虛擬空間	wong2 lu3 hiu1 ngi2 khung1 kean3
+網路虛擬空間	wong2 lu3 hiu1 ngi2 khung1 kean1
 網路行銷	wong2 lu3 reang1 siou1
 網路行銷活動	wong2 lu3 reang1 siou1 ruot dung2
 網路賀卡	wong2 lu3 ro3 kha2
 網路銀行	wong2 lu3 ngin1 rong1
 網路音樂廳	wong2 lu3 'im1 ngeok thieng1
 網際行銷	wong2 cie3 reang1 siou1
-網頁空間	wong2 riet khung1 kean3
+網頁空間	wong2 riet khung1 kean1
 綴合	tyui3 rop
 綴字	tyui3 zi3
 綴字課本	tyui3 zi3 khuo3 pen2
@@ -49589,7 +49872,7 @@ use_preset_vocabulary: true
 縫隙	vung3 khiek
 縮屋稱貞	sruk 'uk chyng1 tyeng1
 縮稱	sruk chyng1
-縱停留時間	ciung3 dieng1 lieu1 zy1 kean3
+縱停留時間	ciung3 dieng1 lieu1 zy1 kean1
 縱切面	ciung1 chiet mien3
 縱剖面	ciung1 pheu2 mien3
 縱坐標	ciung1 zo2 piou1
@@ -49745,6 +50028,7 @@ use_preset_vocabulary: true
 罪行累累	zue2 reang1 lui2 lui2
 罪逆深重	zue2 ngiek sym1 dyung2
 罪逆深重	zue2 ngiek sym1 dyung3
+置信區間	ty3 sin3 khiu1 kean1
 罰不當罪	vat fet tong1 zue2
 罰不當罪	vat pet tong1 zue2
 署缺	zyu3 khiot
@@ -49826,6 +50110,7 @@ use_preset_vocabulary: true
 美得冒泡	mi2 tek mou3 phau3
 美惡	mi2 'ok
 美朝	mi2 dyou1
+美東時間	mi2 tung1 zy1 kean1
 美眄	mi2 mien2
 美稱	mi2 chyng1
 美處	mi2 chyu3
@@ -49924,6 +50209,7 @@ use_preset_vocabulary: true
 翹首盼望	giou1 syeu2 phan3 wong3
 翻倒	fan1 tou2
 翻卷	fan1 kion2
+翻手之間	fan1 syeu2 cy1 kean1
 翻手爲雲	fan1 syeu2 yui1 yun1
 翻手爲雲覆手變雨	fan1 syeu2 yui1 yun1 feu3 syeu2 pien3 yu2
 翻手爲雲覆手變雨	fan1 syeu2 yui1 yun1 fuk syeu2 pien3 yu2
@@ -49966,6 +50252,7 @@ use_preset_vocabulary: true
 老山自行車館	lou2 sran1 zi3 reang1 chya1 kuon3
 老師宿儒	lou2 sri1 siuk nyu1
 老師父	lou2 sri1 vu2
+老年間	lou2 nien1 kean1
 老幾	lou2 ki2
 老成持重	lou2 zyeng1 dy1 dyung2
 老成持重	lou2 zyeng1 dy1 dyung3
@@ -50182,11 +50469,7 @@ use_preset_vocabulary: true
 聽證制度	thieng1 cyng3 cye3 du3
 聽起來	thieng1 khi2 le1
 聽頭	thieng1 deu1
-聾啞	lung1 'ea2
-聾啞人	lung1 'ea2 nyn1
 聾啞學校	lung1 'ea2 reok reau3
-聾啞症	lung1 'ea2 cyeng3
-聾盲瘖啞	lung1 mang1 'im1 'ea2
 肅北蒙古族自治縣	siuk pek mung2 ku2 zuk zi3 dy3 rion3
 肅寧	siuk nieng1
 肅寧縣	siuk nieng1 rion3
@@ -50206,6 +50489,7 @@ use_preset_vocabulary: true
 肉重千斤	nyuk dyung3 chien1 kin1
 肋膜	lek mok
 肋膜炎	lek mok yem1
+肋間肌	lek kean1 ki1
 肌肉萎縮症	ki1 nyuk 'ui1 sruk cyeng3
 肌膜	ki1 mok
 肖翹	siou3 giou1
@@ -50312,6 +50596,8 @@ use_preset_vocabulary: true
 胎藏界	the1 zong3 keai3
 胞與	pau1 yu2
 胞與爲懷	pau1 yu2 yui1 ruai1
+胞間層	pau1 kean1 zeng1
+胞間連絲	pau1 kean1 lien1 si1
 胡三省	ru1 sam1 sieng2
 胡作非爲	ru1 cok fi1 yui1
 胡做喬爲	ru1 cu3 giou1 yui1
@@ -50401,9 +50687,9 @@ use_preset_vocabulary: true
 腦血管栓塞	nou2 hiot kuon2 sron1 sek
 腦量	nou2 liang3
 腰椎穿刺	'iou1 cyui1 chyon1 chi3
-腰椎間盤	'iou1 cyui1 kean3 bon1
-腰椎間盤突出	'iou1 cyui1 kean3 bon1 dut chyut
-腰椎間盤突出症	'iou1 cyui1 kean3 bon1 dut chyut cyeng3
+腰椎間盤	'iou1 cyui1 kean1 bon1
+腰椎間盤突出	'iou1 cyui1 kean1 bon1 dut chyut
+腰椎間盤突出症	'iou1 cyui1 kean1 bon1 dut chyut cyeng3
 腰金衣紫	'iou1 kim1 'i3 ci2
 腰鋪	'iou1 phu3
 腳打着腦杓子	kiak ta2 tyak nou2 zyak ci2
@@ -50690,7 +50976,7 @@ use_preset_vocabulary: true
 與時俱進	yu2 zy1 kiu1 cin3
 與時浮沉	yu2 zy1 veu1 dym1
 與時消息	yu2 zy1 siou1 sik
-與時間賽跑	yu2 zy1 kean3 se3 bau1
+與時間賽跑	yu2 zy1 kean1 se3 bau1
 與會	yu3 rue3
 與格	yu2 kak
 與此同時	yu2 chi2 dung1 zy1
@@ -50891,6 +51177,7 @@ use_preset_vocabulary: true
 舍短用長	sya2 ton2 yung3 dyang1
 舍短錄長	sya2 ton2 liuk dyang1
 舍近謀遠	sya2 gin3 meu1 yon2
+舍間	sya3 kean1
 舒卷	syu1 kion2
 舒散	syu1 san3
 舜華	syun3 hua1
@@ -51001,16 +51288,19 @@ use_preset_vocabulary: true
 花教	hua1 keau3
 花旗參	hua1 gi1 srem1
 花旗銀行	hua1 gi1 ngin1 rong1
+花時間	hua1 zy1 kean1
 花晨月夕	hua1 zyn1 ngiot jek
 花朝	hua1 tyou1
 花朝日	hua1 tyou1 nyt
 花朝月夕	hua1 tyou1 ngiot jek
 花朝月夜	hua1 tyou1 ngiot ya3
 花朝節	hua1 tyou1 ciet
+花柵子	hua1 chrak ci2
 花相	hua1 siang3
 花簇錦攢	hua1 chuk kim2 zon1
 花蛤	hua1 kop
 花鈿	hua1 dien3
+花間集	hua1 kean1 zip
 芷江侗族自治縣	cy2 keong1 dung3 zuk zi3 dy3 rion3
 芾芾	fet fet
 苕之華	diou1 cy1 rua1
@@ -51083,7 +51373,9 @@ use_preset_vocabulary: true
 茶坊	dra1 fong1
 茶坊	dra1 vong1
 茶行	dra1 rong1
+茶點時間	dra1 tiem2 zy1 kean1
 茹柔吐剛	nyu1 nyeu1 thu2 kong1
+荀粲熨婦	siun1 chan3 yun3 veu2
 草偃風行	chou2 'ien2 fung1 reang1
 草創	chou2 chrong3
 草坪掃除機	chou2 bieng1 sou2 dyu1 ki1
@@ -51096,6 +51388,7 @@ use_preset_vocabulary: true
 草草了事	chou2 chou2 liou2 zri3
 草行露宿	chou2 reang1 lu3 siuk
 草長鶯飛	chou2 tyang2 'eang1 fi1
+草間求活	chou2 kean1 gieu1 ruot
 草靡風行	chou2 mi2 fung1 reang1
 荊棘載途	kieng1 kik ce3 du1
 荊棘載途	kieng1 kik ze3 du1
@@ -51337,6 +51630,9 @@ use_preset_vocabulary: true
 落塵量	lok dyn1 liang3
 落差	lok chra1
 落度	lok dok
+落拓	lok thok
+落拓不羈	lok thok fet ki1
+落拓不羈	lok thok pet ki1
 落枕	lok cym2
 落着臉	lok tyak lam2
 落背弓	lok be3 kiung1
@@ -51823,7 +52119,7 @@ use_preset_vocabulary: true
 虛心好學	hiu1 sim1 hou3 reok
 虛情假意	hiu1 zieng1 kea2 'i3
 虛應故事	hiu1 'ing3 ku3 zri3
-虛擬空間	hiu1 ngi2 khung1 kean3
+虛擬空間	hiu1 ngi2 khung1 kean1
 虛空	hiu1 khung1
 虛空藏菩薩	hiu1 khung1 zong3 bu1 sat
 虛聲恫嚇	hiu1 syeng1 dung3 hak
@@ -52401,7 +52697,7 @@ use_preset_vocabulary: true
 行鍼走線	reang1 cym1 ceu2 sien3
 行長	rong1 tyang2
 行開	reang1 khe1
-行間	rong1 kean3
+行間	rong1 kean1
 行關	reang1 kuan1
 行院	rong1 yon3
 行陣	rong1 dyn3
@@ -52433,6 +52729,7 @@ use_preset_vocabulary: true
 衛星轉播	yui3 sieng1 tyon2 po3
 衛氏朝鮮	yui3 zy2 dyou1 sien2
 衛滿朝鮮	yui3 mon2 dyou1 sien2
+衛生間	yui3 srang1 kean1
 衝冠	chyung1 kuon1
 衝冠髮怒	chyung1 kuon1 fat nu3
 衝刺	chyung1 chi3
@@ -52476,6 +52773,7 @@ use_preset_vocabulary: true
 衣冠雲集	'i1 kuon1 yun1 zip
 衣冠齊楚	'i1 kuon1 zie1 chru2
 衣帛食肉	'i3 bak zyk nyuk
+衣帽間	'i1 mou3 kean1
 衣服縫邊	'i1 vuk vung3 pien1
 衣甲	'i1 keap
 衣甲	'i3 keap
@@ -52569,6 +52867,7 @@ use_preset_vocabulary: true
 裏急後重	li2 kip reu3 dyung2
 裏急後重	li2 kip reu3 dyung3
 裏應外合	li2 'ing3 ngue3 rop
+裏間	li2 kean1
 裒斂	beu1 liem3
 裒斂無厭	beu1 liem2 wu1 'iem3
 裘葛之遺	gieu1 kot cy1 yui3
@@ -52592,8 +52891,6 @@ use_preset_vocabulary: true
 補苴調胹	pu2 ciu1 diou1 ny1
 裝假	crong1 kea2
 裝彈	crong1 dan3
-裝聾作啞	crong1 lung1 cok 'ea2
-裝聾裝啞	crong1 lung1 crong1 'ea2
 裝載	crong1 ce3
 裝載	crong1 ze3
 裨將	bi1 ciang3
@@ -52669,6 +52966,7 @@ use_preset_vocabulary: true
 西藏百萬農奴解放紀念日	sie1 zong3 pak wan3 nung1 nu1 keai2 fong3 ki2 niem3 nyt
 西藏自治區	sie1 zong3 zi3 dy3 khiu1
 西調	sie1 diou3
+西部開拓史	sie1 bu2 khe1 thok sri2
 西鄉隆盛	sie1 hiang1 liung1 zyeng3
 西風東漸	sie1 fung1 tung1 ziem2
 西點軍校	sie1 tiem2 kiun1 reau3
@@ -52808,8 +53106,8 @@ use_preset_vocabulary: true
 視爲畏途	zy3 yui1 'ui3 du1
 視爲知己	zy2 yui1 ty1 ki2
 視爲知己	zy3 yui1 ty1 ki2
-視空間系統	zy2 khung1 kean3 rie3 thung3
-視空間系統	zy3 khung1 kean3 rie3 thung3
+視空間系統	zy2 khung1 kean1 rie3 thung3
+視空間系統	zy3 khung1 kean1 rie3 thung3
 視窗加速卡	zy2 chyong1 kea1 suk kha2
 視窗加速卡	zy3 chyong1 kea1 suk kha2
 視網膜	zy2 wong2 mok
@@ -52818,8 +53116,8 @@ use_preset_vocabulary: true
 視聽傳播	zy3 thieng1 dyon1 po3
 視聽教育	zy2 thieng1 keau3 yuk
 視聽教育	zy3 thieng1 keau3 yuk
-視覺空間	zy2 keok khung1 kean3
-視覺空間	zy3 keok khung1 kean3
+視覺空間	zy2 keok khung1 kean1
+視覺空間	zy3 keok khung1 kean1
 視覺適應	zy2 keok syek 'ing3
 視覺適應	zy3 keok syek 'ing3
 視訊捕捉卡	zy2 sin3 bu3 cyok kha2
@@ -53033,7 +53331,6 @@ use_preset_vocabulary: true
 訾議	ci2 ngi3
 訾黃	ci1 ruong1
 詐唬	cra3 hu2
-詐啞佯聾	cra3 'ea2 yang1 lung1
 詐稱	cra3 chyng1
 詐降	cra3 reong1
 評傳	bieng1 dyon3
@@ -53118,7 +53415,7 @@ use_preset_vocabulary: true
 語種	ngiu2 cyung3
 語義分析	ngiu2 ngi3 fen1 siek
 語義分類	ngiu2 ngi3 fen1 lui3
-語義空間	ngiu2 ngi3 khung1 kean3
+語義空間	ngiu2 ngi3 khung1 kean1
 語言顛倒	ngiu2 ngien1 tien1 tou2
 語調	ngiu2 diou3
 語重心長	ngiu2 dyung2 sim1 dyang1
@@ -53165,6 +53462,7 @@ use_preset_vocabulary: true
 誰行	zyui1 rong1
 課卷	khuo3 kion3
 課長	khuo3 tyang2
+課間	khuo3 kean1
 調三斡四	diou1 sam1 'uot si3
 調三窩四	diou1 sam1 'uo1 si3
 調人	diou1 nyn1
@@ -53534,6 +53832,7 @@ use_preset_vocabulary: true
 變速傳動	pien3 suk dyon1 dung2
 變量	pien3 liang3
 讎校	zyeu1 keau3
+讒間	zram1 kean3
 讓三分	nyang3 sam1 fen1
 讓與	nyang3 yu2
 讓賢與能	nyang3 rien1 yu2 neng1
@@ -53804,6 +54103,7 @@ use_preset_vocabulary: true
 賦斂	fu3 liem3
 賦比興	fu3 pi2 hing3
 賦與	fu3 yu2
+賦間	fu3 kean1
 賦食行水	fu3 zyk reang1 syui2
 質和量	cyt ruo1 liang3
 質和量	ty3 ruo1 liang3
@@ -53948,7 +54248,7 @@ use_preset_vocabulary: true
 超文本傳送協議	thyou1 wen1 pen2 dyon1 sung3 riep ngi3
 超然獨處	thyou1 nyen1 duk chyu2
 超級強國	thyou1 kip giang1 kuek
-超維空間	thyou1 yui1 khung1 kean3
+超維空間	thyou1 yui1 khung1 kean1
 超聲掃描	thyou1 syeng1 sou2 miou1
 超負荷	thyou1 veu2 ro2
 超載	thyou1 ce3
@@ -53964,6 +54264,7 @@ use_preset_vocabulary: true
 越調	yot diou3
 越雞難伏鵠卵	yot kie1 nan1 vuk ruk lon2
 趕散	kon2 san3
+趕時間	kon2 zy1 kean1
 趕着鴨子上架	kon2 tyak 'eap ci2 zyang2 kea3
 趕着鴨子上架	kon2 tyak 'eap ci2 zyang3 kea3
 趕飯擔	kon2 van2 tam3
@@ -54043,6 +54344,7 @@ use_preset_vocabulary: true
 跳虎撥着關捩子	diou1 hu2 pot tyak kuan1 liet ci2
 跳行	diou1 rong1
 跳踉	diou1 liang1
+跳間	diou1 kean1
 踅摸	jot mok
 踅轉	jot tyon2
 踅門瞭戶	jot men1 liou1 ru2
@@ -54142,6 +54444,7 @@ use_preset_vocabulary: true
 車載斗量	chya1 ce3 teu2 liang1
 車載斗量	chya1 ze3 teu2 liang1
 車長	chya1 dyang1
+車間	chya1 kean1
 車頭相	chya1 deu1 siang3
 車駕	kiu1 kea3
 車騎	kiu1 gi3
@@ -54176,7 +54479,7 @@ use_preset_vocabulary: true
 軋頭寸	gat deu1 chun3
 軋馬路	'eat ma2 lu3
 軌外行爲	kui2 ngue3 reang1 yui1
-軌道空間站	kui2 dou2 khung1 kean3 tram3
+軌道空間站	kui2 dou2 khung1 kean1 tram3
 軌量	kui2 liang3
 軍事力量	kiun1 zri3 lik liang3
 軍事學校	kiun1 zri3 reok reau3
@@ -54220,8 +54523,8 @@ use_preset_vocabulary: true
 較長	keau3 dyang1
 較長絜短	keau3 dyang1 riet ton2
 載人	ce2 nyn1
-載人軌道空間站	ce3 nyn1 kui2 dou2 khung1 kean3 tram3
-載人軌道空間站	ze3 nyn1 kui2 dou2 khung1 kean3 tram3
+載人軌道空間站	ce3 nyn1 kui2 dou2 khung1 kean1 tram3
+載人軌道空間站	ze3 nyn1 kui2 dou2 khung1 kean1 tram3
 載伯德	ce2 pak tek
 載入	ce2 nyp
 載客	ce3 khak
@@ -54305,6 +54608,7 @@ use_preset_vocabulary: true
 輔行	vu2 reang1
 輔車相依	vu2 kiu1 siang1 'i1
 輔車脣齒	vu2 kiu1 zyun1 chy2
+輔音釋放時間	vu2 'im1 syek fong3 zy1 kean1
 輕事重報	khieng1 zri3 dyung2 pou3
 輕事重報	khieng1 zri3 dyung3 pou3
 輕佻	khieng1 diou1
@@ -54523,7 +54827,7 @@ use_preset_vocabulary: true
 轉盼多情	tyon2 phan3 to1 zieng1
 轉看轉好	tyon2 khon3 tyon2 hou2
 轉眼	tyon2 ngean2
-轉眼之間	tyon2 ngean2 cy1 kean3
+轉眼之間	tyon2 ngean2 cy1 kean1
 轉眼便忘	tyon2 ngean2 bien3 wong3
 轉眼即逝	tyon2 ngean2 cik zye3
 轉瞬	tyon2 syun3
@@ -54679,6 +54983,7 @@ use_preset_vocabulary: true
 辟雍	piek 'iung1
 辟雍硯	phiek 'iung1 ngien3
 辦事處	ban3 zri3 chyu3
+辦公時間	ban3 kung1 zy1 kean1
 辦公處	ban3 kung1 chyu3
 辦差	ban3 chrai1
 辨折	bien2 cyet
@@ -54795,6 +55100,7 @@ use_preset_vocabulary: true
 逗樂	deu3 lok
 逗橈	deu3 nau3
 這個擋口	cya2 ko3 tong2 kheu2
+這其間	cya2 gi1 kean1
 這和	cya2 ruo1
 這幾天	cya2 ki2 thien1
 這樣吧	cya2 yang3 pha1
@@ -54938,6 +55244,7 @@ use_preset_vocabulary: true
 遇難成祥	ngiu3 nan3 zyeng1 jang1
 遇難者	ngiu3 nan3 cya2
 遇難船	ngiu3 nan1 zyon1
+遊戲人間	yeu1 hi3 nyn1 kean1
 遊手好閒	yeu1 syeu2 hou3 rean1
 遊樂	yeu1 lok
 遊樂園	yeu1 lok yon1
@@ -55042,6 +55349,7 @@ use_preset_vocabulary: true
 違和	yui1 ruo1
 違強凌弱	yui1 giang1 ling1 nyak
 違強陵弱	yui1 giang1 ling1 nyak
+違拗	yui1 'au3
 遙控操作	you1 khung3 chou1 cok
 遙相應和	you1 siang1 'ing3 ruo3
 遙遙相對	you1 you1 siang1 tue3
@@ -55053,6 +55361,8 @@ use_preset_vocabulary: true
 遞鋪	die3 phu3
 遞降	die2 keong3
 遞降	die3 keong3
+遠不間親	yon2 fet kean3 chin1
+遠不間親	yon2 pet kean3 chin1
 遠來的和尚好看經	yon2 le1 tiek ruo1 zyang3 hou2 khon3 kieng1
 遠來的和尚會念經	yon2 le1 tiek ruo1 zyang3 rue3 niem3 kieng1
 遠圖長慮	yon2 du1 dyang1 liu3
@@ -55088,6 +55398,7 @@ use_preset_vocabulary: true
 適應性	syek 'ing3 sieng3
 適當	syek tong3
 適量	syek liang3
+適間	syek kean1
 遭難	cou1 nan3
 遮擋	cya1 tong2
 遮藏	cya1 zong1
@@ -55244,12 +55555,16 @@ use_preset_vocabulary: true
 鄉村音樂	hiang1 chun1 'im1 ngeok
 鄉野傳奇	hiang1 ya2 dyon1 gi1
 鄉長	hiang1 tyang2
+鄉間	hiang1 kean1
+鄉間小路	hiang1 kean1 siou2 lu3
 鄙稱	pi2 chyng1
 鄙累	pi2 lui3
 鄙言累句	pi2 ngien1 lui2 kiu3
+鄧拓	deng3 thok
 鄧艾吃	deng3 nge3 kit
 鄭元和	dyeng3 ngion1 ruo1
 鄭和	dyeng3 ruo1
+鄭衛桑間	dyeng3 yui3 song1 kean1
 鄭重	dyeng3 dyung2
 鄭重	dyeng3 dyung3
 鄭重其事	dyeng3 dyung2 gi1 zri3
@@ -55277,6 +55592,7 @@ use_preset_vocabulary: true
 配載	phe3 ce3
 配載	phe3 ze3
 酒刺	cieu2 chi3
+酒吧間	cieu2 pa1 kean1
 酒後吐真言	cieu2 reu2 thu2 cyn1 ngien1
 酒後吐真言	cieu2 reu3 thu2 cyn1 ngien1
 酒渦	cieu2 'uo1
@@ -56099,6 +56415,7 @@ use_preset_vocabulary: true
 鋼種	kong1 cyung2
 鋼筋水泥	kong1 kin1 syui2 nie1
 鋼骨水泥	kong1 kut syui2 nie1
+錄音間	liuk 'im1 kean1
 錐刺股	cyui1 chi3 ku2
 錐處囊中	cyui1 chyu2 nong1 tyung1
 錙銖較量	cri1 zyu1 keau3 liang3
@@ -56713,6 +57030,7 @@ use_preset_vocabulary: true
 門面鋪席人	men1 mien3 phu3 jek nyn1
 閃卡	syem2 kha2
 閃電行動	syem2 dien3 reang1 dung2
+閉區間	pie3 khiu1 kean1
 閉卷考	pie3 kion3 khou2
 閉卷考試	pie3 kion3 khou2 sy3
 閉口藏舌	pie3 kheu2 zong1 zyet
@@ -56728,6 +57046,7 @@ use_preset_vocabulary: true
 開元盛世	khe1 ngion1 zyeng3 sye3
 開創	khe1 chrong3
 開創性	khe1 chrong3 sieng3
+開區間	khe1 khiu1 kean1
 開卷	khe1 kion3
 開卷有得	khe1 kion3 yeu2 tek
 開卷有益	khe1 kion3 yeu2 'iek
@@ -56738,14 +57057,19 @@ use_preset_vocabulary: true
 開小差	khe1 siou2 chrai1
 開屏	khe1 bieng1
 開差	khe1 chrai1
+開房間	khe1 vong1 kean1
+開拓	khe1 thok
+開拓性	khe1 thok sieng3
+開拓者	khe1 thok cya2
 開放式教育	khe1 fong3 syk keau3 yuk
-開放空間	khe1 fong3 khung1 kean3
+開放空間	khe1 fong3 khung1 kean1
 開方便門	khe1 fong1 bien3 men1
 開發銀行	khe1 fat ngin1 rong1
 開蒙	khe1 mung1
 開行	khe1 reang1
 開誠相見	khe1 zyeng1 siang1 kien3
 開鑽	khe1 con1
+開間	khe1 kean1
 閒出	kean1 chyut
 閒出	kean3 chyut
 閒地	rean1 di3
@@ -56776,13 +57100,80 @@ use_preset_vocabulary: true
 閒道	kean3 dou2
 閒隙	kean1 khiek
 閒隙	kean3 khiek
+間不容息	kean3 fet yung1 sik
+間不容息	kean3 pet yung1 sik
+間不容髮	kean3 fet yung1 fat
+間不容髮	kean3 pet yung1 fat
+間充	kean1 chyung1
+間充質	kean1 chyung1 cyt
+間充質	kean1 chyung1 ty3
+間充質幹細胞	kean1 chyung1 cyt kon3 sie3 pau1
+間充質幹細胞	kean1 chyung1 ty3 kon3 sie3 pau1
+間入	kean3 nyp
+間出	kean3 chyut
 間別	kean3 biet
+間壁	kean3 piek
+間奏	kean1 ceu3
+間奏曲	kean1 ceu3 khiuk
+間或	kean3 ruek
+間捕	kean3 bu3
+間接	kean3 ciep
+間接成本	kean3 ciep zyeng1 pen2
+間接推理	kean3 ciep thue1 li2
+間接推論	kean3 ciep thue1 lun3
+間接正犯	kean3 ciep cyeng3 vam2
+間接民權	kean3 ciep min1 gion1
+間接灸	kean3 ciep kieu2
+間接照明	kean3 ciep cyou3 mieng1
+間接經驗	kean3 ciep kieng1 ngiem3
+間接自由球	kean3 ciep zi3 yeu1 gieu1
+間接證據	kean3 ciep cyng3 kiu3
+間接貿易	kean3 ciep meu3 yek
+間接貿易	kean3 ciep meu3 yi3
+間接賓語	kean3 ciep pin1 ngiu2
+間斷	kean3 don2
+間斷	kean3 ton3
+間斷不繼	kean3 don2 fet kie3
+間斷不繼	kean3 don2 pet kie3
+間斷不繼	kean3 ton3 fet kie3
+間斷不繼	kean3 ton3 pet kie3
+間日	kean3 nyt
+間有	kean3 yeu2
+間架	kean1 kea3
 間條掃描	kean3 diou1 sou2 miou1
+間歇	kean3 hiet
 間歇噴泉	kean3 hiet phen1 zion1
+間歇泉	kean3 hiet zion1
+間歇湖	kean3 hiet ru1
+間歇熱	kean3 hiet nyet
+間歇訓練	kean3 hiet hiun3 lien3
+間歲	kean3 sui3
+間深裏	kean3 sym1 li2
 間繞式彈簧	kean3 nyou3 syk dan1 ruong1
+間胺黃	kean3 'on3 ruong1
+間腦	kean1 nou2
+間色	kean3 srek
+間苗	kean3 miou1
 間行	kean3 reang1
-間量	kean3 liang3
+間裂	kean3 liet
+間諜	kean3 diep
+間諜戰	kean3 diep cyen3
+間諜活動	kean3 diep ruot dung2
+間諜網	kean3 diep wong2
+間諜罪	kean3 diep zue2
+間諜船	kean3 diep zyon1
+間諜軟件	kean3 diep nyon2 gien2
+間質性肺炎	kean1 cyt sieng3 fe3 yem1
+間質性肺炎	kean1 ty3 sieng3 fe3 yem1
+間道	kean3 dou2
+間量	kean1 liang3
+間闊	kean3 khuot
+間關	kean1 kuan1
+間阻	kean3 cru2
+間隔	kean3 kak
 間隔號	kean3 kak rou3
+間隙	kean3 khiek
+間雜	kean3 zop
 閔行區	min2 rong1 khiu1
 閬中	long1 tyung1
 閬中市	long1 tyung1 zy2
@@ -56793,6 +57184,7 @@ use_preset_vocabulary: true
 閬鳳山	long1 vung3 sran1
 閱卷	yot kion3
 閱處	yot chyu2
+閱讀時間	yot duk zy1 kean1
 閻王也怕拚命鬼	yem1 yong1 ya2 pha3 phon3 mieng3 kui2
 閻王叫你三更死	yem1 yong1 kiou3 ni2 sam1 kang1 si2
 閼塞	'ot sek
@@ -56913,6 +57305,7 @@ use_preset_vocabulary: true
 阿勒泰市	'a1 lek thai3 zy2
 阿卜杜拉	'a1 fuk du2 la1
 阿卡	'a1 kha2
+阿卡提	'a1 kha2 die1
 阿卡普爾科	'a1 kha2 phu2 ny2 khuo1
 阿卡迪亞	'a1 kha2 diek 'ea3
 阿卡迪亞大學	'a1 kha2 diek 'ea3 da3 reok
@@ -57409,6 +57802,7 @@ use_preset_vocabulary: true
 陝西大地震	syem2 sie1 da3 di3 cyn3
 陟罰臧否	tyk vat cong1 bi2
 陟降	tyk keong3
+陡然間	teu2 nyen1 kean1
 陡長	teu2 tyang2
 院長	yon3 tyang2
 除喪	dyu1 song1
@@ -57435,11 +57829,13 @@ use_preset_vocabulary: true
 陰重	'im1 dyung2
 陰重	'im1 dyung3
 陰錯陽差	'im1 chok yang1 chra1
+陰間	'im1 kean1
 陰陽不將	'im1 yang1 fet ciang1
 陰陽不將	'im1 yang1 pet ciang1
 陰陽五行	'im1 yang1 ngu2 reang1
 陰陽和	'im1 yang1 ruo1
 陰陽對轉	'im1 yang1 tue3 tyon2
+陰陽間隔	'im1 yang1 kean3 kak
 陰魂不散	'im1 run1 fet san3
 陰魂不散	'im1 run1 pet san3
 陳冠希	dyn1 kuon1 hi1
@@ -57467,10 +57863,12 @@ use_preset_vocabulary: true
 陸軍軍官學校	liuk kiun1 kiun1 kuon1 reok reau3
 陸鴻漸	liuk rung1 ziem2
 陸龜蒙	liuk kui1 mung1
+陽世間	yang1 sye3 kean1
 陽和	yang1 ruo1
 陽萎	yang1 'ui1
 陽調	yang1 diou3
 陽識	yang1 cy3
+陽間	yang1 kean1
 陽阿	yang1 'o1
 陽電荷	yang1 dien3 ro1
 隄備	die1 bi3
@@ -57498,6 +57896,7 @@ use_preset_vocabulary: true
 隔行掃描	kak rong1 sou2 miou1
 隔軍事分界線	kak kiun1 zri3 fen1 keai3 sien3
 隔重肚皮隔重山	kak dyung1 du2 bi1 kak dyung1 sran1
+隔間	kak kean1
 隙縫	khiek vung3
 障塞	cyang3 sek
 障泥	cyang3 nie1
@@ -57509,6 +57908,7 @@ use_preset_vocabulary: true
 隨時度勢	jui1 zy1 dok sye3
 隨機應變	jui1 ki1 'ing3 pien3
 隨機效應	jui1 ki1 reau3 'ing3
+隨機時間	jui1 ki1 zy1 kean1
 隨波漂流	jui1 po1 phiou1 lieu1
 隨珠彈雀	jui1 cyu1 dan1 ciak
 隨緣樂助	jui1 yon1 lok zru3
@@ -57535,6 +57935,7 @@ use_preset_vocabulary: true
 隱藏	'in2 zong1
 隱藏處	'in2 zong1 chyu3
 隱跡藏名	'in2 ciek zong1 mieng1
+隱間	'in2 kean3
 隳突叫號	hui1 dut kiou3 rou1
 隴種	liung2 cyung3
 隴西行	liung2 sie1 reang1
@@ -57559,6 +57960,7 @@ use_preset_vocabulary: true
 雅重	ngea2 dyung2
 雅重	ngea2 dyung3
 雅量	ngea2 liang3
+雅間	ngea2 kean1
 雅魯藏布大峽谷	ngea2 lu2 zong3 pu3 da3 reap kuk
 雅魯藏布江	ngea2 lu2 zong3 pu3 keong1
 集中資料處理	zip tyung1 ci1 liou3 chyu2 li2
@@ -57583,6 +57985,7 @@ use_preset_vocabulary: true
 雍重	'iung1 dyung3
 雕空	tiou1 khung1
 雕蚶鏤蛤	tiou1 hom1 leu3 kop
+雙人間	syong1 nyn1 kean1
 雙宿雙飛	syong1 siuk syong1 fi1
 雙差	syong1 chra1
 雙日不着單日着	syong1 nyt fet tyak tan1 nyt tyak
@@ -57624,6 +58027,7 @@ use_preset_vocabulary: true
 離散數學	li1 san3 sru3 reok
 離校	li1 reau3
 離瓣花冠	li1 ban3 hua1 kuon1
+離間	li1 kean3
 難上加難	nan1 zyang2 kea1 nan1
 難上加難	nan1 zyang3 kea1 nan1
 難不倒	nan1 fet tou2
@@ -57809,7 +58213,7 @@ use_preset_vocabulary: true
 電子卡片	dien3 ci2 kha2 phien3
 電子恆溫空調	dien3 ci2 reng1 'un1 khung1 diou1
 電子看板	dien3 ci2 khon3 pan2
-電子空間	dien3 ci2 khung1 kean3
+電子空間	dien3 ci2 khung1 kean1
 電子賀卡	dien3 ci2 ro3 kha2
 電子郵件傳送服務	dien3 ci2 yeu1 gien2 dyon1 sung3 vuk wu3
 電子銀行	dien3 ci2 ngin1 rong1
@@ -57821,6 +58225,7 @@ use_preset_vocabulary: true
 電樂器	dien3 ngeok khi3
 電氣行	dien3 khi3 rong1
 電流強度	dien3 lieu1 giang1 du3
+電熨斗	dien3 yun3 teu2
 電磁感應	dien3 zi1 kom2 'ing3
 電磁相互作用	dien3 zi1 siang1 ru3 cok yung3
 電纜調制解調器	dien3 lom2 diou1 cye3 keai2 diou3 khi3
@@ -57863,7 +58268,7 @@ use_preset_vocabulary: true
 霍小玉傳	huok siou2 ngiuk dyon3
 霍小玉傳	huok siou2 ngiuk tyon3
 霍華得	huok rua1 tek
-霎時間	srap zy1 kean3
+霎時間	srap zy1 kean1
 霑泥絮	tyem1 nie1 siu3
 霜降	srong1 keong3
 霧裏看花	wu3 li2 khon3 hua1
@@ -58071,7 +58476,7 @@ use_preset_vocabulary: true
 韻調	yun3 diou3
 響尾蛇飛彈	hiang2 wi2 zya1 fi1 dan3
 響應	hiang2 'ing3
-響應時間	hiang2 'ing3 zy1 kean3
+響應時間	hiang2 'ing3 zy1 kean1
 響遏行雲	hiang2 'ot reang1 yun1
 頂呱呱	tieng2 kua1 kua1
 頂喪駕靈	tieng2 song1 kea3 lieng1
@@ -58081,6 +58486,7 @@ use_preset_vocabulary: true
 頂着磨子不知重	tieng2 tyak mo3 ci2 fet ty1 dyung3
 頂着磨子不知重	tieng2 tyak mo3 ci2 pet ty1 dyung2
 頂着磨子不知重	tieng2 tyak mo3 ci2 pet ty1 dyung3
+頃刻間	khuing2 khek kean1
 頃筐	khuing1 khiong1
 項圈	reong2 khion1
 項背相望	reong2 be3 siang1 wong3
@@ -58444,6 +58850,8 @@ use_preset_vocabulary: true
 首席執行官	syeu2 jek cyp reang1 kuon1
 首從	syeu2 ziung3
 首惡	syeu2 'ok
+首次注視時間	syeu2 chi3 cyu3 zy2 zy1 kean1
+首次注視時間	syeu2 chi3 cyu3 zy3 zy1 kean1
 首當其衝	syeu2 tong1 gi1 chyung1
 首相	syeu2 siang3
 首要任務	syeu2 'iou3 nym3 wu3
@@ -58538,6 +58946,7 @@ use_preset_vocabulary: true
 駁倒	pok tou2
 駁難	pok nan3
 駃騠	kiot die1
+駐留時間	tyu3 lieu1 zy1 kean1
 駐華盛頓	tyu3 rua1 zyeng3 tun3
 駑散	nu1 san2
 駕長	kea3 tyang2
@@ -58572,6 +58981,7 @@ use_preset_vocabulary: true
 騶從	creu1 ziung3
 騾馱子	lo1 do3 ci2
 騾馱轎	lo1 do1 giou3
+驀忽間	mak hut kean1
 驁放	ngou1 fong3
 驂乘	chom1 zyng3
 驃騎	biou3 gi3
@@ -58605,7 +59015,7 @@ use_preset_vocabulary: true
 骨董行	kut tung2 rong1
 骲箭	bok cien3
 骲頭	bok deu1
-髒彈	cong2 dan3
+髒彈	cong1 dan3
 髓膜炎	sui2 mok yem1
 體操	thie2 chou1
 體操運動員	thie2 chou1 yun3 dung2 yon1
@@ -58674,7 +59084,7 @@ use_preset_vocabulary: true
 高空逆溫	kou1 khung1 ngiek 'un1
 高等學校	kou1 teng2 reok reau3
 高等教育	kou1 teng2 keau3 yuk
-高維空間	kou1 yui1 khung1 kean3
+高維空間	kou1 yui1 khung1 kean1
 高能量	kou1 neng1 liang3
 高興	kou1 hing3
 高舉深藏	kou1 kiu2 sym1 zong1
@@ -58721,6 +59131,7 @@ use_preset_vocabulary: true
 鬍子阿姨	ru1 ci2 'a1 yi1
 鬢亂釵橫	pin3 lon3 chrai1 ruang1
 鬥分子	teu3 ven3 ci2
+鬧擰了	nau3 nieng2 lek
 鬧着玩兒	nau3 tyak nguon1 ny1
 鬧磨擦	nau3 mo1 chat
 鬧磨擦	nau3 mo1 chrat
@@ -58755,6 +59166,7 @@ use_preset_vocabulary: true
 魔音傳腦	mo1 'im1 dyon1 nou2
 魚刺	ngiu1 chi3
 魚和炸土豆條兒	ngiu1 ruo1 tra3 thu2 deu3 diou1 ny1
+魚拓	ngiu1 thap
 魚朝恩	ngiu1 dyou1 'en1
 魚樂	ngiu1 lok
 魚水和諧	ngiu1 syui2 ruo1 reai1
@@ -58940,6 +59352,7 @@ use_preset_vocabulary: true
 黃連樹下彈琴	ruong1 lien1 zyu2 rea2 dan1 gim1
 黃連樹下彈琴	ruong1 lien1 zyu3 rea2 dan1 gim1
 黃金分割	ruong1 kim1 fen1 kot
+黃金時間	ruong1 kim1 zy1 kean1
 黃鐘長棄	ruong1 cyung1 dyang1 khi3
 黃長燁	ruong1 dyang1 yep
 黃門鼓吹	ruong1 men1 ku2 chyui3
@@ -58953,8 +59366,8 @@ use_preset_vocabulary: true
 黎曼幾何	lie1 wan3 ki2 ro1
 黎曼幾何學	lie1 mon1 ki2 ro1 reok
 黎曼幾何學	lie1 wan3 ki2 ro1 reok
-黎曼空間	lie1 mon1 khung1 kean3
-黎曼空間	lie1 wan3 khung1 kean3
+黎曼空間	lie1 mon1 khung1 kean1
+黎曼空間	lie1 wan3 khung1 kean1
 黏着	niem1 tyak
 黏着劑	niem1 tyak zie3
 黏着力	niem1 tyak lik
@@ -58987,6 +59400,7 @@ use_preset_vocabulary: true
 點將	tiem2 ciang3
 點將錄	tiem2 ciang3 liuk
 點差	tiem2 chrai1
+點拗	tiem2 'au2
 點着	tiem2 dyak
 點綴	tiem2 tyui3
 點行	tiem2 reang1

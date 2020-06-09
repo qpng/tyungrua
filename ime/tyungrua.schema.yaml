@@ -4,7 +4,7 @@
 schema:
   schema_id: tyungrua
   name: 中華拼音
-  version: "0.5"
+  version: "0.6"
   author:
     - qpng <https://github.com/qpng>
   description: |
